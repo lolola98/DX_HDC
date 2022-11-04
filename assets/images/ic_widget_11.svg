@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="80" viewBox="0 0 150 80">
+  <g id="ic_widget_11" transform="translate(-19 14)">
+    <rect id="사각형_251" data-name="사각형 251" width="150" height="80" transform="translate(19 -14)" fill="none"/>
+    <g id="그룹_1195" data-name="그룹 1195" transform="translate(20 3)">
+      <g id="사각형_252" data-name="사각형 252" transform="translate(14 -17)" fill="#fff" stroke="#98a0c0" stroke-width="2">
+        <rect width="120" height="80" stroke="none"/>
+        <rect x="1" y="1" width="118" height="78" fill="none"/>
+      </g>
+      <rect id="사각형_208" data-name="사각형 208" width="116" height="12" transform="translate(16 -15)" fill="#f6f8fe"/>
+      <rect id="사각형_209" data-name="사각형 209" width="116" height="1" transform="translate(16 -3)" fill="#98a0c0" opacity="0.4"/>
+      <rect id="사각형_211" data-name="사각형 211" width="116" height="0.5" transform="translate(16 11.975)" fill="#98a0c0" opacity="0.4"/>
+      <g id="Icon_feather-arrow-left" data-name="Icon feather-arrow-left" transform="translate(20 -11.025)">
+        <path id="패스_730" data-name="패스 730" d="M11.55,18H7.5" transform="translate(-7.5 -15.975)" fill="none" stroke="#98a0c0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7"/>
+        <path id="패스_731" data-name="패스 731" d="M9.525,11.55,7.5,9.525,9.525,7.5" transform="translate(-7.5 -7.5)" fill="none" stroke="#98a0c0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7"/>
+      </g>
+      <g id="Icon_feather-arrow-left-2" data-name="Icon feather-arrow-left" transform="translate(30 -11.025)">
+        <path id="패스_730-2" data-name="패스 730" d="M7.5,18h4.05" transform="translate(-7.5 -15.975)" fill="none" stroke="#98a0c0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7"/>
+        <path id="패스_731-2" data-name="패스 731" d="M7.5,11.55,9.525,9.525,7.5,7.5" transform="translate(-5.475 -7.5)" fill="none" stroke="#98a0c0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7"/>
+      </g>
+      <rect id="사각형_210" data-name="사각형 210" width="105" height="8" transform="translate(22 0.975)" fill="#cbcfdf"/>
+    </g>
+  </g>
+</svg>

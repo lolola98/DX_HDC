@@ -1,0 +1,7 @@
+<svg id="ic_personalws_p" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="bound" width="24" height="24" fill="none"/>
+  <g id="abs021" transform="translate(2 2)">
+    <path id="패스_696" data-name="패스 696" d="M70,2244a10,10,0,1,1-10-10A10,10,0,0,1,70,2244Zm-7.5-7.5A7.5,7.5,0,1,0,70,2244,7.5,7.5,0,0,0,62.5,2236.5Z" transform="translate(-50 -2234)" fill="#fff"/>
+    <path id="패스_697" data-name="패스 697" d="M70,2244a7.5,7.5,0,1,1-7.5-7.5A7.5,7.5,0,0,1,70,2244Zm-10-5a5,5,0,1,0,5,5A5,5,0,0,0,60,2239Z" transform="translate(-50 -2234)" fill="#fff" opacity="0.3"/>
+  </g>
+</svg>

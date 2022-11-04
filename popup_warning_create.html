@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+<body>
+    <!-- 여기서부터 modal-warning-create -->
+    <div class="modal fade show modal-warning-create" id="" tabindex="-1" aria-hidden="true" style="display: block;">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-22">경보 생성</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-2">
+                    <div>
+                        <table class="table table-basic table-vertical">
+                            <colgroup>
+                                <col width="130px">
+                                <col>
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label required">발생일시</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="date datepicker w-200px me-4">
+                                                <input type="text" class="form-control">
+                                                <span class="input-group-addon">
+                                                </span>
+                                            </div>
+                                            <select class="w-100px form-select" >
+                                                <option selected>시간</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                            </select>
+                                            <select class="w-100px form-select" >
+                                                <option selected>분</option>
+                                                <option>00</option>
+                                                <option>01</option>
+                                                <option>02</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label required">구역</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex">
+                                            <select class="w-200px form-select">
+                                                <option value="" selected>사업장 선택</option>
+                                            </select>
+                                            <select class="w-200px form-select">
+                                                <option value="" selected>작업장 선택</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label required">경보 제목</label>
+                                    </th>
+                                    <td>
+                                        <input type="text" class="form-control w-100" id="" value="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">경보 상세</label>
+                                    </th>
+                                    <td>
+                                        <input type="text" class="form-control w-100" id="" value="">
+                                    </td>
+                                </tr>
+                                <tr> 
+                                    <th>
+                                        <label class="col-form-label required">책임조치자</label>
+                                    </th>
+                                    <td>
+                                        <!-- <div class="input-search w-250px">
+                                            <input type="text" class="form-control " id="" value="">
+                                            <button type="button" class="btn btn-icon btn-input-search"><i class="fas fa-search"></i></button>
+                                        </div> -->
+                                        <select class="w-250px select2">
+                                            <option></option>
+                                            <option>홍길동2</option>
+                                            <option>홍길동3</option>
+                                            <option>홍길동4</option>
+                                            <option>홍길동5</option>
+                                            <option>홍길동6</option>
+                                            <option>홍길동7</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">경보 등급</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex align-items-center mt-3">
+                                            <label class="form-check form-check-custom form-check-solid me-16">
+                                                <input class="form-check-input" type="radio" name="rating" value="1">
+                                                <span class="badge critical ms-3">critical</span>
+                                            </label>
+                                            <label class="form-check form-check-custom form-check-solid me-16">
+                                                <input class="form-check-input" type="radio" name="rating" value="2">
+                                                <span class="badge major ms-3">major</span>
+                                            </label>
+                                            <label class="form-check form-check-custom form-check-solid">
+                                                <input class="form-check-input" type="radio" name="rating" value="3">
+                                                <span class="badge minor ms-3">minor</span>
+                                            </label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">경보 알림 방식</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex align-items-center mt-3">
+                                            <label class="form-check form-check-inline form-check-solid me-16 is-valid">
+                                                <input class="form-check-input" name="" type="checkbox" value="1">
+                                                <span class="fw-bold ps-2 fs-16">Push</span>
+                                            </label>
+                                            <label class="form-check form-check-inline form-check-solid me-16 is-valid">
+                                                <input class="form-check-input" name="" type="checkbox" value="2">
+                                                <span class="fw-bold ps-2 fs-16">SMS</span>
+                                            </label>
+                                            <label class="form-check form-check-inline form-check-solid is-valid">
+                                                <input class="form-check-input" name="" type="checkbox" value="3">
+                                                <span class="fw-bold ps-2 fs-16">Mail</span>
+                                            </label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">경보 대상</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex align-items-center mt-3">
+                                            <label class="form-check form-check-inline form-check-solid me-6 is-valid">
+                                                <input class="form-check-input" name="" type="checkbox" value="1">
+                                                <span class="fw-bold ps-2 fs-16">최고 관리자</span>
+                                            </label>
+                                            <label class="form-check form-check-inline form-check-solid me-6 is-valid">
+                                                <input class="form-check-input" name="" type="checkbox" value="2">
+                                                <span class="fw-bold ps-2 fs-16">사업장 관리자</span>
+                                            </label>
+                                            <label class="form-check form-check-inline form-check-solid me-6 is-valid">
+                                                <input class="form-check-input" name="" type="checkbox" value="3">
+                                                <span class="fw-bold ps-2 fs-16">작업장 관리자</span>
+                                            </label>
+                                            <label class="form-check form-check-inline form-check-solid is-valid">
+                                                <input class="form-check-input" name="" type="checkbox" value="4">
+                                                <span class="fw-bold ps-2 fs-16">일반</span>
+                                            </label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">지연 기준</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex">
+                                            <select class="w-200px form-select" >
+                                                <option selected>선택</option>
+                                                <option>1시간</option>
+                                                <option>2시간</option>
+                                                <option>3시간</option>
+                                                <option>4시간</option>
+                                                <option>5시간</option>
+                                                <option>6시간</option>
+                                                <option>7시간</option>
+                                                <option>8시간</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">취소</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">생성</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 여기까지 -->
+    <div class="modal-backdrop fade show"></div>
+</body>
+</html>

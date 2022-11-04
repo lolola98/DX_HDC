@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+<body style="background-color: #D9DDE7; padding-top: 100px;">
+
+    <div class="dashboard d-flex flex-center">
+        <!-- width값은 임시로 넣어 두었습니다.-->
+        <!-- 여기서 부터 가져가시면 됩니다 -->
+        <div class="card" style="width: 784px;">
+            <div class="card-header align-items-center border-0 mt-4">
+                <h3 class="card-title align-items-start flex-column">
+                    <span class="fw-bolder mb-2 text-dark">위치 정보</span>
+                    <span class="text-muted fw-normal fs-16">전국 현장</span>
+                </h3>
+            </div>
+            <div class="card-body pt-5">
+                <!-- height 임시로 넣어 두었습니다.-->
+                <div class="position-relative" style="height: 600px">
+                    지도영역
+                    <img src="assets/images/map_ic_cctv_n.svg">
+                    <img src="assets/images/map_ic_cctv_s.svg">
+                    <div class="tooltip map-tooltip show">
+                         <div class="fs-14 mb-2"><strong>논산 아이파크</strong></div>
+                         <div class="fs-12">
+                             <p>홍길동</p>
+                             <p>010-0000-0000</p>
+                             <p>CCTV 상태 (0/10)</p>
+                         </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- 여기까지 -->
+    </div>
+
+</body>
+</html>

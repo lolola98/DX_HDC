@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+<body>
+    <!-- 여기서부터 modal-warning-contentEdit -->
+    <div class="modal fade show modal-warning-contentEdit" id="" tabindex="-1" aria-hidden="true" style="display: block;">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-0">
+                    <h5 class="modal-title fs-22">조치내용</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-2">
+                    <div class="mb-10">
+                        <div class="mb-6">
+                            <textarea class="form-control" rows="3" placeholder="조치내용 입력" style="resize: none;"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="form-inline w-75">
+                                <input type="file" class="form-file">
+                                <button type="button" class="btn btn-icon btn-delete ms-3"></button>
+                            </div>
+                            <button type="button" class="btn btn-primary w-100px">등록</button>
+                        </div>
+                    </div>
+                    <div class="accordion scroll h-500px" id="warningContent">
+                        <div class="details-wrap">
+                          <div class="details-header accordion-header py-3 px-4" id="content1-heading"  data-bs-toggle="collapse" data-bs-target="#content1-collapse" aria-expanded="false">
+                                <span class="me-3">2022-01-17 13:17:32</span> 책임자: <span><strong>박수영</strong> (park123)</span>
+                          </div>
+                          <div id="content1-collapse" class="collapse show" aria-labelledby="content1-heading" data-bs-parent="#warningContent">
+                            <div class="details-body">
+                                <div class="px-2 pb-2">
+                                    <div class="text-secondary fs-7 pb-1">[조치내용]</div>
+                                    <div class="fs-16">
+                                        위험지역에서 퇴장 조치하였으며, 위험공간 영역에 대하여 추가 안내함.<br>위험공간에 사람 없는 것을 확인 완료함
+                                        위험지역에서 퇴장 조치하였으며, 위험공간 영역에 대하여 추가 안내함.<br>위험공간에 사람 없는 것을 확인 완료함
+                                        위험지역에서 퇴장 조치하였으며, 위험공간 영역에 대하여 추가 안내함.<br>위험공간에 사람 없는 것을 확인 완료함
+                                        위험지역에서 퇴장 조치하였으며, 위험공간 영역에 대하여 추가 안내함.<br>위험공간에 사람 없는 것을 확인 완료함
+                                    </div>
+                                </div>
+                                <img src="assets/images/img_area.png" class="w-100">
+                            </div>
+                          </div>
+                          <button type="button" class="btn btn-gray btn-edit">수정</button>
+                        </div>
+                        <div class="details-wrap">
+                            <div class="details-header accordion-header py-3 px-4 cursor-pointer" id="content2-heading"  data-bs-toggle="collapse" data-bs-target="#content2-collapse" aria-expanded="false">
+                                  <span class="me-3">2022-01-17 13:17:32</span> 책임자: <span><strong>박수영</strong> (park123)</span>
+                            </div>
+                            <div id="content2-collapse" class="collapse" aria-labelledby="content2-heading" data-bs-parent="#warningContent">
+                              <div class="details-body">
+                                  <div class="px-2 py-3">
+                                      <div class="text-secondary fs-7 pb-1">[조치내용]</div>
+                                      <div class="fs-16">
+                                          위험지역에서 퇴장 조치하였으며, 위험공간 영역에 대하여 추가 안내함.<br>위험공간에 사람 없는 것을 확인 완료함
+                                      </div>
+                                  </div>
+                                  <img src="assets/images/img_area.png" class="w-100">
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 여기까지 -->
+    <div class="modal-backdrop fade show"></div>
+</body>
+</html>

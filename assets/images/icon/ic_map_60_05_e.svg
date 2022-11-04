@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="ic_map_60_05_e" transform="translate(-262 -613)">
+    <circle id="er" cx="30" cy="30" r="30" transform="translate(262 613)" fill="#f1416c"/>
+    <path id="Icon_metro-bluetooth" data-name="Icon metro-bluetooth" d="M32.744,15.8,22.081,5.141H20.212V19.318l-8.57-8.57L9,13.393,19.436,23.832,9,34.271l2.645,2.645,8.57-8.57V42.523h1.869L32.744,31.86l-8.018-8.028L32.744,15.8ZM23.95,12.3l3.514,3.514-3.514,3.5Zm3.514,19.56-3.514,3.5V28.337l3.514,3.523Z" transform="translate(270.146 618.572)" fill="#fff"/>
+  </g>
+</svg>

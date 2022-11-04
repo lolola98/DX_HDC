@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ic_dash_n" transform="translate(-20 -845)">
+    <rect id="bound" width="24" height="24" transform="translate(20 845)" fill="none"/>
+    <path id="Combined_Shape" data-name="Combined Shape" d="M34.5,865a1.5,1.5,0,0,1-1.5-1.5v-1a1.5,1.5,0,0,1,1.5-1.5h4a1.5,1.5,0,0,1,1.5,1.5v1a1.5,1.5,0,0,1-1.5,1.5Zm-9-12a1.5,1.5,0,0,1-1.5-1.5v-1a1.5,1.5,0,0,1,1.5-1.5h4a1.5,1.5,0,0,1,1.5,1.5v1a1.5,1.5,0,0,1-1.5,1.5Z" fill="#83849a"/>
+    <path id="Combined_Shape-2" data-name="Combined Shape" d="M25.5,865a1.5,1.5,0,0,1-1.5-1.5v-7a1.5,1.5,0,0,1,1.5-1.5h4a1.5,1.5,0,0,1,1.5,1.5v7a1.5,1.5,0,0,1-1.5,1.5Zm9-6a1.5,1.5,0,0,1-1.5-1.5v-7a1.5,1.5,0,0,1,1.5-1.5h4a1.5,1.5,0,0,1,1.5,1.5v7a1.5,1.5,0,0,1-1.5,1.5Z" fill="#83849a" opacity="0.3"/>
+  </g>
+</svg>

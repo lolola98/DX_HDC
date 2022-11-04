@@ -1,0 +1,7 @@
+<svg id="ic_solution_p" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="bound" width="24" height="24" fill="none"/>
+  <g id="그룹_68" data-name="그룹 68">
+    <path id="Combined_Shape" data-name="Combined Shape" d="M14,8H4A4,4,0,0,1,4,0H14a4,4,0,1,1,0,8ZM4,2A2,2,0,1,0,6,4,2,2,0,0,0,4,2Z" transform="translate(3 3)" fill="#83849a"/>
+    <path id="Combined_Shape-2" data-name="Combined Shape" d="M14,8H4A4,4,0,0,1,4,0H14a4,4,0,1,1,0,8Zm0-6a2,2,0,1,0,2,2A2,2,0,0,0,14,2Z" transform="translate(3 13)" fill="#83849a" opacity="0.3"/>
+  </g>
+</svg>

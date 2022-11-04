@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="ic_map_02_er" transform="translate(-112 -571)">
+    <g id="ic_widget_map" transform="translate(112 571)">
+      <g id="p" fill="#f1416c" stroke="#bb2046" stroke-width="1">
+        <circle cx="14" cy="14" r="14" stroke="none"/>
+        <circle cx="14" cy="14" r="13.5" fill="none"/>
+      </g>
+    </g>
+    <path id="Icon_open-video" data-name="Icon open-video" d="M3.382,0a.927.927,0,0,0-.924.924V8.317a.927.927,0,0,0,.924.924h6.784a.915.915,0,0,0,.924-.924V5.545l1.848,1.848h1.848V1.848H12.938L11.09,3.7V.924A.915.915,0,0,0,10.165,0Z" transform="translate(114 580.246)" fill="#fff"/>
+    <path id="패스_773" data-name="패스 773" d="M350.561,899.4a.7.7,0,0,0-.161-.972,7.655,7.655,0,0,0-8.924,0,.7.7,0,1,0,.812,1.133,6.267,6.267,0,0,1,7.3,0,.7.7,0,0,0,.973-.161Zm-1.622,2.27a.7.7,0,0,0-.161-.972,4.956,4.956,0,0,0-5.679,0,.7.7,0,1,0,.812,1.133,3.547,3.547,0,0,1,4.055,0,.7.7,0,0,0,.973-.161Z" transform="translate(1032.749 239.063) rotate(90)" fill="#fff" opacity="0.7"/>
+  </g>
+</svg>

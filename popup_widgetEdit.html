@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+<body>
+    <!-- 여기서부터 modal-widget-edit -->
+    <div class="modal fade show modal-widget-edit" id="" tabindex="-1" aria-hidden="true" style="display: block;">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-22">위젯 수정</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-2">
+                    <div>
+                        <table class="table table-basic table-vertical">
+                            <colgroup>
+                                <col width="25%">
+                                <col>
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        위젯
+                                    </th>
+                                    <td>
+                                        장비 상태
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">구역</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex">
+                                            <select class="w-150px form-select">
+                                                <option>광주공장</option>
+                                            </select>
+                                            <select class="w-150px form-select">
+                                                <option>1공장</option>
+                                            </select>
+                                        </div>
+                                        <div class="d-flex mt-2">
+                                            <select class="w-150px form-select">
+                                                <option>1층</option>
+                                            </select>
+                                            <select class="w-150px form-select" disabled>
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">제목</label>
+                                    </th>
+                                    <td>
+                                        <input type="text" class="form-control w-100" id="" value="장비 상태">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">소제목</label>
+                                    </th>
+                                    <td>
+                                        <input type="text" class="form-control w-100" id="" value="광주공장>1공장>1층">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">모델 유형</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex">
+                                            <select class="w-150px form-select" >
+                                                <option>위치장비</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">취소</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">추가</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 여기까지 -->
+    <div class="modal-backdrop fade show"></div>
+</body>
+</html>

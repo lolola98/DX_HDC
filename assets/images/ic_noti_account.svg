@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="ic_noti_account" transform="translate(-1469 -119)">
+    <circle id="타원_169" data-name="타원 169" cx="30" cy="30" r="30" transform="translate(1469 119)" fill="#a8b2db"/>
+    <g id="그룹_1255" data-name="그룹 1255" transform="translate(1484.432 134.432)">
+      <path id="Bound" d="M0,0H30V30H0Z" fill="none"/>
+      <g id="그룹_12" data-name="그룹 12" transform="translate(2.13 2.13)">
+        <path id="Combined_Shape" data-name="Combined Shape" d="M5.574,11.149a5.574,5.574,0,1,1,5.574-5.574A5.574,5.574,0,0,1,5.574,11.149Z" transform="translate(6.968)" fill="#fff" opacity="0.5"/>
+        <path id="Combined_Shape-2" data-name="Combined Shape" d="M0,10.033C.541,3.382,5.939,0,12.519,0c6.672,0,12.154,3.2,12.563,10.034a.957.957,0,0,1-1.047,1.115H1.014A1.543,1.543,0,0,1,0,10.033Z" transform="translate(0 13.936)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

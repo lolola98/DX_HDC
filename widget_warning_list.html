@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+<body style="background-color: #D9DDE7; padding-top: 100px;">
+    
+    <div class="dashboard d-flex flex-center">
+        <!-- width값은 임시로 넣어 두었습니다.-->
+        <!-- 여기서 부터 가져가시면 됩니다 -->
+        <div class="card warning-list" style="width: 516px;">
+            <div class="card-header align-items-center border-0 mt-4">
+                <h3 class="card-title align-items-start flex-column">
+                    <span class="fw-bolder mb-2 text-dark">경보 리스트</span>
+                    <span class="text-muted fw-normal fs-16">광주공장>1공장</span>
+                </h3>
+                <div class="card-toolbar more">
+                    <button type="button" class="btn btn-sm btn-icon more"
+                        data-bs-toggle="dropdown" aria-expanded="false"></button>
+                    <ul
+                        class="dropdown-menu dropdown-menu-end menu-sub-dropdown menu menu-gray-800  menu-column menu-rounded w-100px menu-state-bg-light-primary py-3">
+                        <li class="menu-item px-3"><a class="menu-link px-3" href="#"
+                                data-bs-toggle="modal"
+                                data-bs-target="#widgetEdit">수정</a></li>
+                        <li class="menu-item px-3"><a class="menu-link px-3"
+                                href="#">삭제</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <ul class="nav nav-tabs tabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="all-tab" data-bs-toggle="tab"
+                            href="#all" role="tab" aria-controls="all"
+                            aria-selected="true">전체</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="responsible-tab" data-bs-toggle="tab"
+                            href="#responsible" role="tab" aria-controls="responsible"
+                            aria-selected="false">책임/담당
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="all" role="tabpanel"
+                        aria-labelledby="all-tab">
+                        <div class="state">
+                            <div
+                                class="d-flex justify-content-between align-items-center">
+                                <span class="title">상태</span>
+                                <span class="badge active">지연</span>
+                                <span class="badge active">미확인</span>
+                                <span class="badge">조치중</span>
+                                <span class="badge">완료대기</span>
+                            </div>
+                        </div>
+                        <div class="scroll">
+                            <table class="table table-fixed table-basic table-lg">
+                                <colgroup>
+                                    <col width="82px">
+                                    <col width="95px">
+                                    <col width="165px">
+                                    <col>
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="4" class="text-center border-bottom-0 pt-10">
+                                            일치하는 내용이 없습니다.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-0 text-center"><span class="badge critical">critical</span></td>
+                                        <td class="px-0 text-center"><span class="badge working">조치중</span></td>
+                                        <td class="px-0 ">2022-01-17 13:14:24</td>
+                                        <td class="px-0"><div class="text-truncate">위험공간 출입자 발생</div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-0 text-center"><span class="badge major">critical</span></td>
+                                        <td class="px-0 text-center"><span class="badge working">조치중</span></td>
+                                        <td class="px-0">2022-01-17 13:14:24</td>
+                                        <td class="px-0"><div class="text-truncate">건강이상자 발생</div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-0 text-center"><span class="badge major">critical</span></td>
+                                        <td class="px-0 text-center"><span class="badge waiting">대기</span></td>
+                                        <td class="px-0">2022-01-17 13:14:24</td>
+                                        <td class="px-0"><div class="text-truncate">건강이상자 발생건강이상자 발생건강이상자 발생</div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-0 text-center"><span class="badge minor">critical</span></td>
+                                        <td class="px-0 text-center"><span class="badge unidentified">미확인</span></td>
+                                        <td class="px-0">2022-01-17 13:14:24</td>
+                                        <td class="px-0"><div class="text-truncate">건강이상자 발생</div></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="responsible" role="tabpanel"
+                        aria-labelledby="responsible-tab">...</div>
+                </div>
+            </div>
+        </div>
+        <!-- 여기까지 -->
+    </div>
+
+</body>
+</html>

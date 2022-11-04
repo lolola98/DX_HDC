@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+
+<body class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-fixed">
+    <div class="d-flex flex-column flex-root">
+        <!-- S:: page -->
+        <div class="page d-flex flex-row flex-column-fluid">
+            <!-- S:: menu -->
+            <div class="aside">
+                <div class="aside-header p-5 d-flex justify-content-between border-bottom">
+                    <div class="d-flex flex-column">
+                        <span class="fs-2 fw-bold">홍길동</span>
+                        <span class="fs-5 text-muted">hong1234</span>
+                    </div>
+                    <div class="aside-toggle"></div>
+                </div>
+                <div class="aside-menu flex-column-fluid">
+                    <div class="hover-scroll-overlay-y px-2 my-5" style="height: calc(100vh - 180px);">
+                        <ul class="menu menu-column metismenu">
+                            <li class="menu-item menu1 mm-active">
+                                <a class="menu-link" href="dashboard.html">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">대시보드</span>
+                                </a>
+                            </li>
+                            <li class="menu-item menu2">
+                                <a class="menu-link" href="warning_history.html">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">경보내역</span>
+                                </a>
+
+                            </li>
+                            <li class="menu-item menu3">
+                                <a class="menu-link" href="event_history.html">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">이벤트 이력</span>
+                                </a>
+
+                            </li>
+                            <li class="menu-item menu4">
+                                <a class="menu-link" href="notic.html">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">공지사항</span>
+                                </a>
+
+                            </li>
+                            <li class="menu-item menu5">
+                                <a class="menu-link" href="customer_support.html">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">고객지원</span>
+                                </a>
+
+                            </li>
+                            <li class="menu-item border-top mt-3 mb-0">
+                                <div class="menu-content pt-3">
+                                    <span class="menu-section text-muted text-uppercase fs-6 ls-1">관리 메뉴</span>
+                                </div>
+                            </li>
+                            <li class="menu-item menu6">
+                                <a class="menu-link" href="account_management.html">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">계정 관리
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item is-submenu menu7">
+                                <a class="menu-link" class="has-arrow" aria-expanded="false">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">솔루션 관리</span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="">
+                                    <li class="menu-item menu7-1">
+                                        <a class="menu-link" href="solution_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">솔루션사 관리</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu7-2">
+                                        <a class="menu-link" href="model_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">모델 관리</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu7-3">
+                                        <a class="menu-link" href="warning_condition_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">경보 조건 관리</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item is-submenu  menu8">
+                                <a class="menu-link" class="has-arrow" aria-expanded="false">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">전체 작업장 관리</span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="">
+                                    <li class="menu-item menu8-1">
+                                        <a class="menu-link" href="workplace_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">사업장 관리</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu8-2">
+                                        <a class="menu-link" href="workshop_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">작업장 관리</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item is-submenu  menu9">
+                                <a class="menu-link" class="has-arrow" aria-expanded="false">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">개별 작업장 관리</span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="">
+                                    <li class="menu-item menu9-1">
+                                        <a class="menu-link" href="equipment_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">장비 관리</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu9-2">
+                                        <a class="menu-link" href="location_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">장비 위치 관리</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu9-3">
+                                        <a class="menu-link" href="warning_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">경보 관리</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item is-submenu menu10">
+                                <a class="menu-link" class="has-arrow" aria-expanded="false">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">운영 관리</span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul>
+                                    <li class="menu-item menu10-1">
+                                        <a class="menu-link" href="terms_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">약관 관리</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu10-2">
+                                        <a class="menu-link" href="tab_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">기본탭 관리</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item is-submenu menu11">
+                                <a class="menu-link" class="has-arrow" aria-expanded="false">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">통계</span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="">
+                                    <li class="menu-item menu11-1">
+                                        <a class="menu-link" href="warning_statistics.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">경보 통계</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu11-2">
+                                        <a class="menu-link" href="equipment_statistics.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">장비 통계</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu11-3">
+                                        <a class="menu-link" href="operation_statistics.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">운영 통계</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu12">
+                                <a class="menu-link" href="#">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">사용자 매뉴얼</span>
+                                </a>
+                                <ul></ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- E:: menu -->
+            <!-- S:: wrapper -->
+            <div class="wrapper d-flex flex-column flex-row-fluid">
+                <!-- S:: header -->
+                <div class="header">
+                    <div class="container-fluid d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <span class="btn-aside-close me-4 "><img src="assets/images/ic_menu_toggle_off.svg"></span>
+                            <h1 class="logo cursor-pointer"><img src="assets/images/kt_logo_w.svg"></h1>
+
+                        </div>
+                        <div>
+                            <div class="noti btn btn-icon w-40px h-40px position-relative">
+                                <img src="assets/images/ic_noti.svg">
+                                <span
+                                    class="bullet bullet-dot bg-danger h-6px w-6px position-absolute translate-middle top-0 start-50 animation-blink"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- E:: header -->
+                <!-- S:: content -->
+                <div class="content d-flex flex-column flex-column-fluid"
+
+
+                >
+                    <div class="content-container animated fadeInRight">
+                        <!-- warning  list -->
+                        <div class="warning-list d-flex justify-content-center content-area">
+                            <div class="d-flex">
+                                <div class="left-area">
+                                    <h2 class="fs-22 mb-9 px-6">경보내역</h2>
+                                    <div class="border-bottom search-area pb-8 px-6">
+                                        <table class="w-100">
+                                            <colgroup>
+                                                <col width="140px">
+                                                <col>
+                                                <col width="100px">
+                                                <col>
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <th>
+                                                        <label for="" class="col-form-label fs-18">지역/현장</label>
+                                                    </th>
+                                                    <td colspan="3">
+                                                        <div class="d-flex">
+                                                            <select class="w-200px form-select">
+                                                                <option>전체1</option>
+                                                                <option>전체2</option>
+                                                                <option>전체3</option>
+                                                                <option>전체4</option>
+                                                                <option>전체5</option>
+                                                                <option>전체6</option>
+                                                            </select>
+                                                            <select class="w-200px form-select">
+                                                                <option>전체</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        <label for="" class="col-form-label fs-18">등급</label>
+                                                    </th>
+                                                    <td colspan="3">
+                                                        <div class="d-flex align-items-center">
+                                                            <label
+                                                                class="form-check form-check-custom form-check-solid me-10">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    name="rating" value="1">
+                                                                <span class="badge critical ms-3">critical</span>
+                                                            </label>
+                                                            <label
+                                                                class="form-check form-check-custom form-check-solid me-10">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    name="rating" value="2">
+                                                                <span class="badge major ms-3">major</span>
+                                                            </label>
+                                                            <label
+                                                                class="form-check form-check-custom form-check-solid">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    name="rating" value="3">
+                                                                <span class="badge minor ms-3">minor</span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        <label for="" class="col-form-label fs-18">상태</label>
+                                                    </th>
+                                                    <td colspan="3">
+                                                        <!-- 조치중: working, 완료대기: waiting, 완료: close, 미확인: unidentified, 지연: delay-->
+                                                        <div class="d-flex align-items-center">
+                                                            <label
+                                                                class="form-check form-check-custom form-check-solid me-10">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    name="rating" value="1">
+                                                                <span class="badge delay ms-3">지연</span>
+                                                            </label>
+                                                            <label
+                                                                class="form-check form-check-custom form-check-solid me-10">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    name="rating" value="2">
+                                                                <span class="badge unidentified ms-3">미확인</span>
+                                                            </label>
+                                                            <label
+                                                                class="form-check form-check-custom form-check-solid me-10">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    name="rating" value="3">
+                                                                <span class="badge working ms-3">조치중</span>
+                                                            </label>
+                                                            <label
+                                                                class="form-check form-check-custom form-check-solid me-10">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    name="rating" value="3">
+                                                                <span class="badge waiting ms-3">완료대기</span>
+                                                            </label>
+                                                            <label
+                                                                class="form-check form-check-custom form-check-solid me-10">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    name="rating" value="3">
+                                                                <span class="badge close ms-3">완료</span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+
+                                                    <th>
+                                                        <label for="" class="col-form-label fs-18">경보 제목</label>
+                                                    </th>
+                                                    <td>
+                                                        <input type="text" class="form-control w-75" id="">
+                                                    </td>
+                                                    <th>
+                                                        <label for="" class="col-form-label fs-18">발생기간</label>
+                                                    </th>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="date datepicker w-150px">
+                                                                <input type="text" class="form-control">
+                                                                <span class="input-group-addon">
+                                                                </span>
+                                                            </div>
+                                                            <span class="dash mx-3"></span>
+                                                            <div class="date datepicker w-150px">
+                                                                <input type="text" class="form-control">
+                                                                <span class="input-group-addon">
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button type="button" class="btn btn-primary btn-search">검색</button>
+                                    </div>
+                                    <div class="data-area mt-5">
+                                        <div class="d-flex justify-content-between align-items-center px-6 py-8">
+                                            <div class="text-gray-800 fs-16 fw-bolder">전체 <span class="text-primary">12</span>건</div>
+                                            <div>
+                                                <button type="button" class="btn btn-outline-dark fs-18 btn-basic">경보
+                                                    생성</button>
+                                                <button type="button" class="btn btn-outline-dark fs-18 btn-basic ms-6"
+                                                    onclick="window.location='assets/file/warning_list.xlsx'"><i
+                                                        class="ic-excel"></i>Excel</button>
+                                            </div>
+                                        </div>
+                                        <table class="table table-basic table-fixed border-bottom mb-6">
+                                            <colgroup>
+                                                <col>
+                                                <col>
+                                                <col>
+                                                <col>
+                                                <col width="250px">
+                                                <col>
+                                                <col>
+                                                <col>
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" class="text-center">등급</th>
+                                                    <th scope="col" class="text-center">상태</th>
+                                                    <th scope="col" class="text-center">발생일시</th>
+                                                    <th scope="col" class="text-center">종료일시</th>
+                                                    <th scope="col">경보 제목</th>
+                                                    <th scope="col">지역/현장</th>
+                                                    <th scope="col" class="text-center">책임 조치자</th>
+                                                    <th scope="col" class="text-center">확인 담당자</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="select">
+                                                    <td class="text-center"><span class="badge critical">critical</span>
+                                                    </td>
+                                                    <td class="text-center"><span class="badge close">종료</span></td>
+                                                    <td class="text-center"><span>2022-01-17<br>13:15:04</span></td>
+                                                    <td class="text-center"><span>2022-01-17<br>13:21:17</span></td>
+                                                    <td ><a href="#" class="btn-link text-truncate d-block"><strong>위험공간 출입자 발생 위험공간 출입자 발생 위험공간 출입자
+                                                            발생</a></strong></td>
+                                                    <td><span>광주공장<br>5공장</span></td>
+                                                    <td class="text-center"><span>김철훈</span></td>
+                                                    <td class="text-center"><span>이태식</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center"><span class="badge major">major</span>
+                                                    </td>
+                                                    <td class="text-center"><span class="badge unidentified">미확인</span>
+                                                    </td>
+                                                    <td class="text-center"><span>2022-01-17<br>13:14:24</span></td>
+                                                    <td class="text-center"><span>-</span></td>
+                                                    <td><a href="#" class="btn-link text-truncate d-block"><strong>건강이상자 발생</strong></a></td>
+                                                    <td><span>광주공장<br>2공장</span></td>
+                                                    <td class="text-center"><span>박기선</span></td>
+                                                    <td class="text-center"><span>-</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center"><span class="badge major">major</span>
+                                                    </td>
+                                                    <td class="text-center"><span class="badge working">조치중</span></td>
+                                                    <td class="text-center"><span>2022-01-13<br>15:21:30</span></td>
+                                                    <td class="text-center"><span>-</span></td>
+                                                    <td><a href="#" class="btn-link text-truncate d-block"><strong>온이상자 발생</strong></a></td>
+                                                    <td><span>광주공장<br>2공장</span></td>
+                                                    <td class="text-center"><span>박기선</span></td>
+                                                    <td class="text-center"><span>-</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center"><span class="badge minor">MINOR</span></td>
+                                                    <td class="text-center"><span class="badge waiting">완료대기</span></td>
+                                                    <td class="text-center"><span>2022-01-05<br>09:15:27</span></td>
+                                                    <td class="text-center"><span>-</span></td>
+                                                    <td><a href="#" class="btn-link text-truncate d-block"><strong>온도 높음</strong></a></td>
+                                                    <td><span>광주공장<br>2공장</span></td>
+                                                    <td class="text-center"><span>이태근</span></td>
+                                                    <td class="text-center"><span>홍성길</span></td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                        <ul class="pagination">
+                                            <li class="paginate_button page-item previous disabled">
+                                                <a href="#" tabindex="0" class="page-link"><i class="previous"></i></a>
+                                            </li>
+                                            <li class="paginate_button page-item active"><a href="#" tabindex="0"
+                                                    class="page-link">1</a>
+                                            </li>
+                                            <li class="paginate_button page-item "><a href="#" tabindex="0"
+                                                    class="page-link">2</a>
+                                            </li>
+                                            <li class="paginate_button page-item "><a href="#" tabindex="0"
+                                                    class="page-link">3</a>
+                                            </li>
+                                            <li class="paginate_button page-item next"><a href="#" tabindex="0"
+                                                    class="page-link"><i class="next"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="ms-11 right-area">
+                                    <div class="warning-history border rounded py-7 ps-6 pe-3">
+                                        <h2 class="fs-22 mb-5">경보이력</h2>
+                                        <div class="scroll-y h-300px ps-1">
+                                            <div class="timeline-label">
+                                                <div class="timeline-item">
+                                                    <div class="timeline-badge">
+                                                        <i class="fa fa-genderless text-danger fs-1"></i>
+                                                    </div>
+                                                    <div class="timeline-content ps-3 d-flex flex-column fs-16 lh-1">
+                                                        <span class="fw-bolder mb-2">2022-01-17 13:15:04</span>
+                                                        <span class="text-gray-800 ">경보 발생</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="timeline-badge">
+                                                        <i class="fa fa-genderless text-warning fs-1"></i>
+                                                    </div>
+                                                    <div class="timeline-content ps-3 d-flex flex-column fs-16 lh-1">
+                                                        <span class="fw-bolder mb-2">2022-01-17 13:15:34</span>
+                                                        <span class="text-gray-800 ">책임자 경보 확인 (조치중)</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="timeline-badge">
+                                                        <i class="fa fa-genderless text-secondary fs-1"></i>
+                                                    </div>
+                                                    <div class="timeline-content ps-3 d-flex flex-column fs-16 lh-1">
+                                                        <span class="fw-bolder mb-2">2022-01-17 13:15:34</span>
+                                                        <span class="text-gray-800 ">조치내용 등록</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="timeline-badge">
+                                                        <i class="fa fa-genderless text-success fs-1"></i>
+                                                    </div>
+                                                    <div class="timeline-content ps-3 d-flex flex-column fs-16 lh-1">
+                                                        <span class="fw-bolder mb-2">2022-01-17 13:15:34</span>
+                                                        <span class="text-gray-800 ">책임자 조치 완료 (완료대기)</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="timeline-badge">
+                                                        <i class="fa fa-genderless text-primary fs-1"></i>
+                                                    </div>
+                                                    <div class="timeline-content ps-3 d-flex flex-column fs-16 lh-1">
+                                                        <span class="fw-bolder mb-2">2022-01-17 13:15:34</span>
+                                                        <span class="text-gray-800 ">담당자 완료 확인 (종료)</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="timeline-badge">
+                                                        <i class="fa fa-genderless text-primary fs-1"></i>
+                                                    </div>
+                                                    <div class="timeline-content ps-3 d-flex flex-column fs-16 lh-1">
+                                                        <span class="fw-bolder mb-2">2022-01-17 13:15:34</span>
+                                                        <span class="text-gray-800 ">담당자 완료 확인 (종료)</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="timeline-badge">
+                                                        <i class="fa fa-genderless text-primary fs-1"></i>
+                                                    </div>
+                                                    <div class="timeline-content ps-3 d-flex flex-column fs-16 lh-1">
+                                                        <span class="fw-bolder mb-2">2022-01-17 13:15:34</span>
+                                                        <span class="text-gray-800 ">담당자 완료 확인 (종료)</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="action-details border rounded py-7 ps-6 pe-3 mt-7 ">
+                                        <h2 class="fs-22  mb-2">조치내용</h2>
+                                        <div class="scroll-y h-250px">
+                                            <div class="border-bottom d-flex flex-column  lh-1 py-4 cursor-pointer">
+                                                <span class="fw-bolder mb-2 fs-16">2022-01-17 13:17:32</span>
+                                                <span class="text-gray-800 fs-18">박수영(park123)</span>
+                                            </div>
+                                            <div class="border-bottom d-flex flex-column  lh-1 py-4 cursor-pointer">
+                                                <span class="fw-bolder mb-2 fs-16">2022-01-17 13:16:02</span>
+                                                <span class="text-gray-800 fs-18">김지영(ji1214)</span>
+                                            </div>
+                                            <div class="border-bottom d-flex flex-column  lh-1 py-4 cursor-pointer">
+                                                <span class="fw-bolder mb-2 fs-16">2022-01-17 13:16:02</span>
+                                                <span class="text-gray-800 fs-18">김지영(ji1214)</span>
+                                            </div>
+                                            <div class="border-bottom d-flex flex-column  lh-1 py-4 cursor-pointer">
+                                                <span class="fw-bolder mb-2 fs-16">2022-01-17 13:16:02</span>
+                                                <span class="text-gray-800 fs-18">김지영(ji1214)</span>
+                                            </div>
+                                            <div class="border-bottom d-flex flex-column  lh-1 py-4 cursor-pointer">
+                                                <span class="fw-bolder mb-2 fs-16">2022-01-17 13:16:02</span>
+                                                <span class="text-gray-800 fs-18">김지영(ji1214)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- E:: content -->
+                <!-- S:: footer -->
+                <div class="footer">
+                    <h1 class="logo"><img src="assets/images/footer_logo_kt.svg"></h1>
+                    <div class="footer-menu d-flex">
+                        <a href="#">이용약관</a>
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">위치기반서비스 이용약관</a>
+                    </div>
+                    <p class="copyright mb-0 mt-2">Copyright © 2022 KT. All rights reserved.</p>
+                </div>
+                <!-- E:: footer -->
+            </div>
+            <!-- E:: wrapper -->
+        </div>
+        <!-- E:: page -->
+    </div>
+
+</body>
+
+</html>

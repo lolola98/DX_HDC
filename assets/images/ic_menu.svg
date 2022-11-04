@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="ic_menu" transform="translate(-237 -2181)">
+    <rect id="slice" width="30" height="30" transform="translate(237 2181)" fill="none"/>
+    <rect id="사각형_71" data-name="사각형 71" width="20" height="3" rx="1" transform="translate(242 2187)" fill="#fff"/>
+    <path id="패스_685" data-name="패스 685" d="M261,2197H243a1,1,0,0,1-1-1v-1a1,1,0,0,1,1-1h18a1,1,0,0,1,1,1v1A1,1,0,0,1,261,2197Zm1,6v-1a1,1,0,0,0-1-1H243a1,1,0,0,0-1,1v1a1,1,0,0,0,1,1h18A1,1,0,0,0,262,2203Z" fill="#fff" opacity="0.3"/>
+  </g>
+</svg>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+
+<body class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-fixed">
+    <div class="d-flex flex-column flex-root">
+        <!-- S:: page -->
+        <div class="page d-flex flex-row flex-column-fluid">
+            <!-- S:: menu -->
+            <!-- E:: menu -->
+            <!-- S:: wrapper -->
+            <div class="wrapper d-flex flex-column flex-row-fluid">
+                <!-- S:: header -->
+                <div class="header">
+                    <div class="container-fluid d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <span class="btn-aside-close me-4 "><img src="assets/images/ic_menu_toggle_off.svg"></span>
+                            <h1 class="logo cursor-pointer"><img src="assets/images/kt_logo_w.svg"></h1>
+
+                        </div>
+                        <div>
+                            <div class="noti btn btn-icon w-40px h-40px position-relative">
+                                <img src="assets/images/ic_noti.svg">
+                                <span
+                                    class="bullet bullet-dot bg-danger h-6px w-6px position-absolute translate-middle top-0 start-50 animation-blink"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- E:: header -->
+                <!-- S:: content -->
+                <div class="content d-flex flex-column flex-column-fluid">
+                    <div class="content-container animated fadeInRight">
+                        <!-- warning-manage  list -->
+                        <div class="warning-manage-list d-flex justify-content-center content-area">
+                            <div class="d-flex">
+                                <div class="left-area">
+                                    <h2 class="fs-22 mb-9 px-6">경보 관리</h2>
+                                    <div class="border-bottom search-area pb-8 px-6">
+                                        <table class="w-100">
+                                            <colgroup>
+                                                <col width="140px">
+                                                <col>
+                                                <col width="90px">
+                                                <col >
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <th>
+                                                        <label for="" class="col-form-label fs-18">지역/현장</label>
+                                                    </th>
+                                                    <td colspan="3">
+                                                        <div class="d-flex justify-content-between">
+                                                            <div class="d-flex align-items-center">
+                                                                <select class="w-200px form-select">
+                                                                    <option>전체1</option>
+                                                                    <option>전체2</option>
+                                                                    <option>전체3</option>
+                                                                    <option>전체4</option>
+                                                                    <option>전체5</option>
+                                                                    <option>전체6</option>
+                                                                </select>
+                                                                <select class="w-200px form-select">
+                                                                    <option>전체</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <label for="" class="col-form-label fs-18 w-90px">상태</label>
+                                                                <select class="w-200px form-select">
+                                                                    <option>선택</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        <label for="" class="col-form-label fs-18">경보 종류 </label>
+                                                    </th>
+                                                    <td>
+                                                        <select class="w-200px form-select">
+                                                            <option>전체</option>
+                                                            <option>기업 공통</option>
+                                                            <option>작업장 단일</option>
+                                                            <option>작업장 복합</option>
+                                                        </select>
+                                                    </td>
+                                                    <th>
+                                                        <label for="" class="col-form-label fs-18">경보 등급</label>
+                                                    </th>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <select class="w-200px form-select">
+                                                                <option>전체</option>
+                                                                <option>MINOR</option>
+                                                                <option>MAJOR</option>
+                                                                <option>CRITICAL</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        <label for="" class="col-form-label fs-18">모델</label>
+                                                    </th>
+                                                    <td>
+                                                        <select class="w-200px form-select">
+                                                            <option>전체</option>
+                                                        </select>
+                                                    </td>
+                                                    <th>
+                                                        <label for="" class="col-form-label fs-18">경보 제목</label>
+                                                    </th>
+                                                    <td>
+                                                        <input type="text" class="form-control w-300px" id="">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button type="button" class="btn btn-primary btn-search">검색</button>
+                                    </div>
+                                    <div class="data-area mt-5">
+                                        <div class="d-flex justify-content-between align-items-center px-6 py-8">
+                                            <div class="text-gray-800 fs-16 fw-bolder">전체 <span class="text-primary">12</span>건</div>
+                                            <div>
+                                                <button type="button" class="btn btn-outline-danger fs-18 btn-basic me-3">일괄 ON</button>
+                                                <button type="button" class="btn btn-outline-dark fs-18 btn-basic  me-8">일괄 OFF</button>
+                                                <button type="button" class="btn btn-primary fs-18 btn-basic" onclick="location.href='warning_management_register.html'">작업장 경보 등록</button>
+                                            </div>
+                                        </div>
+                                        <table class="table table-basic border-bottom mb-6">
+                                            <colgroup>
+                                                <col width="50px">
+                                                <col width="50px">
+                                                <col width="120px">
+                                                <col width="90px">
+                                                <col>
+                                                <col width="250px">
+                                                <col width="150px">
+                                                <col width="180px">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">
+                                                        <label class="form-check form-check-inline form-check-solid m-0">
+                                                            <input class="form-check-input" name="" type="checkbox" value="" >
+                                                        </label>
+                                                    </th>
+                                                    <th scope="col" class="text-center">상태</th>
+                                                    <th scope="col" class="text-center">경보 종류</th>
+                                                    <th scope="col" class="text-center">경보 등급</th>
+                                                    <th scope="col">모델</th>
+                                                    <th scope="col">경보 제목</th>
+                                                    <th scope="col">경보 알림 방식</th>
+                                                    <th scope="col" class="text-center">책임조치자</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <label class="form-check form-check-inline form-check-solid m-0">
+                                                            <input class="form-check-input" name="" type="checkbox" value="" checked>
+                                                        </label>
+                                                    </td>
+                                                    <td class="text-center"><strong class="text-danger">ON</strong></td>
+                                                    <td class="text-center">기업 공통</td>
+                                                    <td class="text-center"><span class="badge critical">critical</span></td>
+                                                    <td>기가아이즈프로</td>
+                                                    <td><a href="warning_management_details.html" class="btn-link">라인크로싱 입장</a></td>
+                                                    <td>Push, SMS, Mail</td>
+                                                    <td class="text-center"><button type="button" class="btn-account">김철훈(hoon01)</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <label class="form-check form-check-inline form-check-solid m-0">
+                                                            <input class="form-check-input" name="" type="checkbox" value="" >
+                                                        </label>
+                                                    </td>
+                                                    <td class="text-center"><strong>OFF</strong></td>
+                                                    <td class="text-center">작업장 단일</td>
+                                                    <td class="text-center"><span class="badge major">major</span></td>
+                                                    <td>기가아이즈프로</td>
+                                                    <td><a href="warning_management_details.html" class="btn-link">라인크로싱 입장</a></td>
+                                                    <td>Push, SMS, Mail</td>
+                                                    <td class="text-center"><button type="button" class="btn-account">김철훈(hoon01)</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <label class="form-check form-check-inline form-check-solid m-0">
+                                                            <input class="form-check-input" name="" type="checkbox" value="" >
+                                                        </label>
+                                                    </td>
+                                                    <td class="text-center"><strong class="text-danger">ON</strong></td>
+                                                    <td class="text-center">작업장 복합</td>
+                                                    <td class="text-center"><span class="badge minor">MINOR</span></td>
+                                                    <td>기가아이즈프로</td>
+                                                    <td><a href="warning_management_details.html" class="btn-link">라인크로싱 입장</a></td>
+                                                    <td>Push, SMS, Mail</td>
+                                                    <td class="text-center"><button type="button" class="btn-account">미지정</button></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <ul class="pagination">
+                                            <li class="paginate_button page-item previous disabled">
+                                                <a href="#" tabindex="0" class="page-link"><i class="previous"></i></a>
+                                            </li>
+                                            <li class="paginate_button page-item active"><a href="#" tabindex="0"
+                                                    class="page-link">1</a>
+                                            </li>
+                                            <li class="paginate_button page-item "><a href="#" tabindex="0"
+                                                    class="page-link">2</a>
+                                            </li>
+                                            <li class="paginate_button page-item "><a href="#" tabindex="0"
+                                                    class="page-link">3</a>
+                                            </li>
+                                            <li class="paginate_button page-item next"><a href="#" tabindex="0"
+                                                    class="page-link"><i class="next"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- E:: content -->
+                <!-- S:: footer -->
+                <div class="footer">
+                    <h1 class="logo"><img src="assets/images/footer_logo_kt.svg"></h1>
+                    <div class="footer-menu d-flex">
+                        <a href="#">이용약관</a>
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">위치기반서비스 이용약관</a>
+                    </div>
+                    <p class="copyright mb-0 mt-2">Copyright © 2022 KT. All rights reserved.</p>
+                </div>
+                <!-- E:: footer -->
+            </div>
+            <!-- E:: wrapper -->
+        </div>
+        <!-- E:: page -->
+    </div>
+
+</body>
+
+</html>

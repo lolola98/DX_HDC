@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="ic_map_60_12_e" transform="translate(-1123 -523)">
+    <circle id="er" cx="30" cy="30" r="30" transform="translate(1123 523)" fill="#f1416c"/>
+    <g id="그룹_1294" data-name="그룹 1294" transform="translate(1139.072 535.857)">
+      <path id="합치기_27" data-name="합치기 27" d="M2,34.285a2,2,0,0,1-2-2V2.445H2.533V13.692a1,1,0,0,0,1,1H24.324a1,1,0,0,0,1-1V2.445h2.533v29.84a2,2,0,0,1-2,2ZM5.068,12.245V0H22.792V12.245ZM8.859,6.126a4.99,4.99,0,0,0,5.067,4.9,4.989,4.989,0,0,0,5.063-4.9,4.989,4.989,0,0,0-5.063-4.9A4.99,4.99,0,0,0,8.859,6.126Z" transform="translate(0 0)" fill="#fff"/>
+      <circle id="타원_181" data-name="타원 181" cx="2.143" cy="2.143" r="2.143" transform="translate(11.782 3.921)" fill="#fff" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

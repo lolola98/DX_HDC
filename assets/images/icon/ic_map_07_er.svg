@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="ic_map_07_er" transform="translate(-262 -613)">
+    <g id="ic_widget_map" transform="translate(262 613)">
+      <g id="p" fill="#f1416c" stroke="#bb2046" stroke-width="1">
+        <circle cx="14" cy="14" r="14" stroke="none"/>
+        <circle cx="14" cy="14" r="13.5" fill="none"/>
+      </g>
+    </g>
+    <path id="Icon_feather-thermometer" data-name="Icon feather-thermometer" d="M15.681,11.685V3.351a1.851,1.851,0,0,0-3.7,0v8.335a3.331,3.331,0,1,0,3.7,0Z" transform="translate(261.647 617.788)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+    <path id="합치기_23" data-name="합치기 23" d="M-3391-2926.8a1.5,1.5,0,0,1,1-1.414v-6.286a.5.5,0,0,1,.5-.5.5.5,0,0,1,.5.5v6.286a1.5,1.5,0,0,1,1,1.414,1.5,1.5,0,0,1-1.5,1.5A1.5,1.5,0,0,1-3391-2926.8Z" transform="translate(3665 3559)" fill="#fff" opacity="0.7"/>
+    <path id="합치기_28" data-name="합치기 28" d="M-13879-6882v-1h2v1Zm0-3v-1h2v1Zm0-3v-1h2v1Z" transform="translate(14159 7510)" fill="#fff"/>
+  </g>
+</svg>

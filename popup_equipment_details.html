@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/common.js"></script>
+    </head>
+<body>
+    <!-- 여기서부터 modal-equipment-details -->
+    <div class="modal fade show modal-equipment-details" id="" tabindex="-1" aria-hidden="true" style="display: block;">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <h5 class="modal-title fs-22"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-4 px-4">
+                        <div class="px-4 pb-3 border-bottom border-bottom-dashed">
+                            <!-- critical, minor, major -->
+                            <!-- 조치중: working, 완료대기: waiting, 완료: close, 미확인: unidentified, 지연: delay-->
+                            <span class="badge critical me-3">critical</span><span class="badge unidentified">미확인</span>
+                            <div class="text-gray-800 fs-14 mt-3">2021-12-21 16시 29분 57초</div>
+                            <div class="text-gray-800 fs-14 fw-bolder">안전모턱끈 미착용</div>
+                            <button type="button" class="btn btn-outline-danger w-100 h-40px p-0 mt-3">추가 경보 3</button>
+                            <button type="button" class="btn btn-outline-danger w-100 h-40px p-0 mt-3" disabled>추가 경보 3</button>
+                        </div>
+                    </div>
+                    <div class="equipment-list">
+                        <div class="list-item">
+                            <!-- <img src="assets/images/icon/ic_map_60_14_n.svg"> -->
+                            <div class="icon"><img src="assets/images/icon/ic_map_60_14_e.svg"></div>
+                            <div class="d-flex flex-column">
+                                <span class="fs-22 fw-boldest">안전모</span>
+                                <span class="fs-18">안전모01</span>
+                                <span class="fs-14 text-gray-600">(315645)</span>
+                            </div>
+                        </div>
+                        <div class="text-gray-800 fs-14 fw-bolder mb-4">광주공장>1공장>1층>A구역</div>
+                        <div class="d-flex justify-content-between ">
+                            <button type="button" class="btn btn-dark p-0 flex-grow-1">서비스 URL로 이동</button>
+                            <button type="button" class="btn btn-icon btn-cctv ms-3"></button>
+                        </div>
+                        <div class="mt-7">
+                            <div class="text-secondary fs-7 pb-1">[2021-12-21 15:12:13 기준]</div>
+                            <div class="text-gray-600 fs-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque erat arcu, bibendum quis purus eu, ullamcorper malesuada quam.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 여기까지 -->
+    <div class="modal-backdrop fade show"></div>
+</body>
+</html>

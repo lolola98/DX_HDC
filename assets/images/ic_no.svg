@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="ic_no" transform="translate(-262 -613)">
+    <g id="타원_21" data-name="타원 21" transform="translate(262 613)" fill="#50cd89" stroke="#159d53" stroke-width="1">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="13.5" fill="none"/>
+    </g>
+    <path id="Icon_ionic-ios-hand" data-name="Icon ionic-ios-hand" d="M17.14,5.62a.706.706,0,0,0-.733.667V9.833a.311.311,0,0,1-.619,0V4.6a.737.737,0,0,0-1.467,0V8.712a.311.311,0,0,1-.619,0V4.042a.737.737,0,0,0-1.467,0v5.23a.311.311,0,0,1-.619,0V5.164a.737.737,0,0,0-1.467,0v7.073l-.966-.765c-.907-.736-1.675-1.05-2.3-.509-.421.382.24,1,.932,1.724.667.7,2.433,2.978,3.938,3.8a2.852,2.852,0,0,0,1.411.369h1.988a2.752,2.752,0,0,0,2.725-3.02V6.288A.711.711,0,0,0,17.14,5.62Z" transform="translate(262.7 616.808)" fill="#fff" opacity="0.7"/>
+    <g id="타원_22" data-name="타원 22" transform="translate(265 616)" fill="none" stroke="#fff" stroke-width="1.6">
+      <circle cx="11" cy="11" r="11" stroke="none"/>
+      <circle cx="11" cy="11" r="10.2" fill="none"/>
+    </g>
+    <line id="선_1" data-name="선 1" y1="21" transform="translate(283.349 634.349) rotate(135)" fill="none" stroke="#fff" stroke-width="1.6"/>
+  </g>
+</svg>

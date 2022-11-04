@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="ic_noti" transform="translate(-332 -68)">
+    <rect id="bound" width="30" height="30" transform="translate(332 68)" fill="none"/>
+    <g id="그룹_74" data-name="그룹 74" transform="translate(-55 -143)">
+      <path id="패스_727" data-name="패스 727" d="M402.882,220h-1.765c-3.249,0-6.176,2.339-6.176,5.588V230l-2.565,3.078a1.888,1.888,0,0,0-.376,1.04v2.353a.588.588,0,0,0,.588.588h18.824a.588.588,0,0,0,.588-.588v-2.353a1.888,1.888,0,0,0-.376-1.04L409.059,230v-4.412c0-3.249-2.928-5.588-6.176-5.588Z" transform="translate(0 -2.059)" fill="#fff"/>
+      <path id="사각형_113" data-name="사각형 113" d="M2,0H2A2,2,0,0,1,4,2V4A0,0,0,0,1,4,4H0A0,0,0,0,1,0,4V2A2,2,0,0,1,2,0Z" transform="translate(400 215)" fill="#fff"/>
+      <path id="빼기_12" data-name="빼기 12" d="M-4017-292a3,3,0,0,1-3-3,3,3,0,0,1,.171-1h5.658a3,3,0,0,1,.171,1A3,3,0,0,1-4017-292Z" transform="translate(4419 530)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

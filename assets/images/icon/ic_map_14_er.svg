@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="ic_map_14_er" transform="translate(-1123 -605)">
+    <g id="ic_widget_map" transform="translate(1123 605)">
+      <g id="p" fill="#f1416c" stroke="#bb2046" stroke-width="1">
+        <circle cx="14" cy="14" r="14" stroke="none"/>
+        <circle cx="14" cy="14" r="13.5" fill="none"/>
+      </g>
+    </g>
+    <path id="빼기_19" data-name="빼기 19" d="M-14052-7164c-4.411,0-8-.9-8-2,0-.338.347-.674,1-.97V-7169a7.02,7.02,0,0,1,4.064-6.358l.435,3.458.473-3.8h0l0,0h.006l.014,0a1.006,1.006,0,0,1,1-.988h2a1,1,0,0,1,1,.988l.011,0h.007l.007,0,.477,3.8.431-3.458A7.02,7.02,0,0,1-14045-7169v2.033c.652.293,1,.627,1,.967C-14044-7164.9-14047.59-7164-14052-7164Zm0-7.7a2.5,2.5,0,0,0-2.5,2.5,2.5,2.5,0,0,0,2.5,2.5,2.5,2.5,0,0,0,2.5-2.5A2.5,2.5,0,0,0-14052-7171.7Z" transform="translate(15189 7789)" fill="#fff"/>
+    <path id="합치기_26" data-name="합치기 26" d="M-14058-7174v-1h-1v-1h1v-1h1v1h1v1h-1v1Z" transform="translate(15194.5 7795.352)" fill="#fff"/>
+  </g>
+</svg>

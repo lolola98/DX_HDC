@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39.381" height="39.381" viewBox="0 0 39.381 39.381">
+  <g id="ic_gigapro" transform="translate(17.57 0.063) rotate(39)">
+    <g id="타원_2" data-name="타원 2" transform="translate(0 -0.081)" fill="#50cd89" stroke="#159d53" stroke-width="1">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="13.5" fill="none"/>
+    </g>
+    <path id="Icon_open-video" data-name="Icon open-video" d="M.924,0A.927.927,0,0,0,0,.924V8.317a.927.927,0,0,0,.924.924h9.241a.915.915,0,0,0,.924-.924V5.545l1.848,1.848h1.848V1.848H12.938L11.09,3.7V.924A.915.915,0,0,0,10.165,0Z" transform="translate(7 9.298)" fill="#fff"/>
+    <path id="다각형_1" data-name="다각형 1" d="M3.5,0,7,3.574H0Z" transform="translate(33.825 10.919) rotate(90)" fill="#50cd89"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="ic_map_08_n" transform="translate(-262 -613)">
+    <g id="ic_widget_map" transform="translate(262 613)">
+      <g id="n" fill="#50cd89" stroke="#159d53" stroke-width="1">
+        <circle cx="14" cy="14" r="14" stroke="none"/>
+        <circle cx="14" cy="14" r="13.5" fill="none"/>
+      </g>
+    </g>
+    <g id="그룹_1288" data-name="그룹 1288" transform="translate(-0.5 -0.5)">
+      <path id="합치기_14" data-name="합치기 14" d="M-3718-2933a1,1,0,0,1-1-1v-4a1,1,0,0,1,1-1h3.6v-4.166a2.5,2.5,0,0,1-1.6-2.333,2.5,2.5,0,0,1,2.5-2.5,2.5,2.5,0,0,1,2.5,2.5,2.5,2.5,0,0,1-1.6,2.333V-2939h3.6a1,1,0,0,1,1,1v4a1,1,0,0,1-1,1Z" transform="translate(3989.999 3568)" fill="#fff"/>
+      <path id="합치기_12" data-name="합치기 12" d="M-3717.914-2946H-3719v-1h1.085a1.5,1.5,0,0,1,1.415-1,1.5,1.5,0,0,1,1.5,1.5,1.5,1.5,0,0,1-1.5,1.5A1.5,1.5,0,0,1-3717.914-2946Z" transform="translate(3999 3569)" fill="#fff" opacity="0.7"/>
+      <path id="합치기_13" data-name="합치기 13" d="M-3719-2946.5a1.5,1.5,0,0,1,1.5-1.5,1.5,1.5,0,0,1,1.415,1H-3715v1h-1.085a1.5,1.5,0,0,1-1.414,1A1.5,1.5,0,0,1-3719-2946.5Z" transform="translate(3988 3569)" fill="#fff" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

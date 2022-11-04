@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+<body>
+    <!-- 여기서부터 modal-widget-setting -->
+    <div class="modal fade show modal-widget-setting" id="" tabindex="-1" aria-hidden="true" style="display: block;">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-22">위젯 추가</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-2">
+                    <div>
+                        <table class="table table-basic table-vertical">
+                            <colgroup>
+                                <col width="25%">
+                                <col>
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        위젯
+                                    </th>
+                                    <td>
+                                        개별 장비
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label required">구역</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex">
+                                            <select class="w-150px form-select">
+                                                <option>사업장 선택</option>
+                                            </select>
+                                            <select class="w-150px form-select">
+                                                <option>작업장 선택</option>
+                                            </select>
+                                        </div>
+                                        <div class="d-flex mt-2">
+                                            <select class="w-150px form-select">
+                                                <option>층 선택</option>
+                                            </select>
+                                            <select class="w-150px form-select">
+                                                <option>구역 선택</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label required">제목</label>
+                                    </th>
+                                    <td>
+                                        <input type="text" class="form-control w-100" id="" value="제목">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">소제목</label>
+                                    </th>
+                                    <td>
+                                        <input type="text" class="form-control w-100" id="" value="">
+                                    </td>
+                                </tr>
+                                <!-- [S] 장비 현황 리스트, 장비 상태, 장비 신호등 추가 입력 -->
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">모델 유형</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex">
+                                            <select class="w-150px form-select">
+                                                <option>전체</option>
+                                                <option>위치장비</option>
+                                                <option>영상 장비</option>
+                                                <option>작업자 정보</option>
+                                                <option>건강 장비</option>
+                                                <option>안전 장비</option>
+                                                <option>환경 장비</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- [E] 장비 현황 리스트, 장비 상태, 장비 신호등 추가 입력 -->
+                                <!-- [S] 장비 신호등 추가 입력 -->
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">기간</label>
+                                    </th>
+                                    <td>
+                                        <div>
+                                            <button type="button" class="btn btn-outline-primary btn-sm w-70px fs-16 py-2 px-0 me-3">일간</button>
+                                            <button type="button" class="btn btn-outline-primary btn-sm w-70px fs-16 py-2 px-0 me-3 active">주간</button>
+                                            <button type="button" class="btn btn-outline-primary btn-sm w-70px fs-16 py-2 px-0">월간</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- [E] 장비 신호등 추가 입력 -->
+                                <!-- [S] CCTV 추가 입력 -->
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label required">장비 선택</label>
+                                    </th>
+                                    <td>
+                                        <button type="button" class="btn btn-basic btn-gray w-90px p-0">선택하기</button>
+                                        <div class="text-muted mt-1">( <strong>4</strong> ) 장비명, 장비명, 장비명, 장비명</div>
+                                    </td>
+                                </tr>
+                                <!-- [E] CCTV 추가 입력 -->
+                                <!-- [S] 그래프, 개별 장비 추가 입력 -->
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label required">데이터</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex">
+                                            <select class="w-150px form-select" >
+                                                <option>데이터 선택</option>
+                                                <option>잔여 배터리</option>
+                                                <option>잔여 디스크</option>
+                                                <option>사용 시간</option>
+                                                <option>온도</option>
+                                                <option>습도</option>
+                                                <option>풍속</option>
+                                                <option>산소 농도</option>
+                                                <option>메탄가스 농도</option>
+                                                <option>일산화탄소 농도</option>
+                                                <option>황화수소 농도</option>
+                                                <option>미세먼지 농도</option>
+                                                <option>이산화탄소 농도</option>
+                                                <option>아황산가스 농도</option>                
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr> 
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label required">장비</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex">
+                                            <select class="w-150px form-select" >
+                                                <option>모델 유형 선택</option>
+                                                <option>위치장비</option>
+                                                <option>영상 장비</option>
+                                                <option>작업자 정보</option>
+                                                <option>건강 장비</option>
+                                                <option>안전 장비</option>
+                                                <option>환경 장비 </option>             
+                                            </select>
+                                            <select class="w-150px form-select" >
+                                                <option>장비 선택</option>      
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr> 
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">형태</label>
+                                    </th>
+                                    <td>
+                                        <div>
+                                            <button type="button" class="btn btn-outline-primary btn-basic px-0 me-3">
+                                                <i class="far fa-chart-area text-primary  fs-16"></i>
+                                                <span>꺾은선형</span>
+                                            </button>
+                                            <button type="button" class="btn btn-outline-primary btn-basic px-0 active">
+                                                <i class="far fa-chart-bar text-primary fs-16"></i>
+                                                <span>막대형</span>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr> 
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">표준 값</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <input type="text" class="form-control w-100px text-center" id="" value="">
+                                            <span class="px-3 mt-n1">-</span>
+                                            <input type="text" class="form-control w-100px text-center" id="" value="">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- [E] 그래프,개별 장비 추가 입력 -->
+                                <!-- [S] 상태 현황 추가 입력 -->
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label required">데이터</label>
+                                    </th>
+                                    <td>
+                                        <div class="d-flex">
+                                            <select class="w-150px form-select" >
+                                                <option>데이터 선택</option>
+                                                <option>배터리 상태</option>
+                                                <option>장치 상태</option>
+                                                <option>건강</option>
+                                                <option>발열</option>
+                                                <option>산소포화도</option>
+                                                <option>최고혈압</option>
+                                                <option>최저혈압</option>
+                                                <option>맥박</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr> 
+                                <!-- [E] 상태 현황 추가 입력 -->
+                                <!-- [S] iframe 추가 입력 -->
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label required">iframe URL</label>
+                                    </th>
+                                    <td>
+                                        <input type="text" class="form-control w-100" id="" value="">
+                                    </td>
+                                </tr> 
+                                <!-- [E] iframe 추가 입력 -->
+                                <!-- [S] 이미지 추가 입력 -->
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label required">파일</label>
+                                    </th>
+                                    <td>
+                                        <div class="form-inline">
+                                            <input type="file" class="form-file">
+                                            <button type="button" class="btn btn-icon btn-delete ms-3"></button>
+                                        </div>
+                                    </td>
+                                </tr> 
+                                <!-- [E] 이미지 추가 입력 -->
+                                <!-- [S] d-day 추가 입력 -->
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label">기준 날짜</label>
+                                    </th>
+                                    <td>
+                                        <div class="date datepicker w-150px">
+                                            <input type="text" class="form-control">
+                                            <span class="input-group-addon">
+                                            </span>
+                                        </div>
+                                    </td>
+                                </tr>     
+                                <tr>
+                                    <th>
+                                        <label class="col-form-label required">디데이 문구</label>
+                                    </th>
+                                    <td>
+                                        <input type="text" class="form-control w-100" id="" value="" placeholder="디데이 문구">
+                                    </td>
+                                </tr>
+                                <!-- [E] d-day 추가 입력 -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="text-danger fs-16 px-7 pt-3">사업장 구역으로는 설정 불가합니다. 작업장을 선택해주세요</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">취소</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">추가</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 여기까지 -->
+    <div class="modal-backdrop fade show"></div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="ic_map_03_n" transform="translate(-1123 -165)">
+    <g id="ic_widget_map" transform="translate(1123 165)">
+      <g id="n" fill="#50cd89" stroke="#159d53" stroke-width="1">
+        <circle cx="14" cy="14" r="14" stroke="none"/>
+        <circle cx="14" cy="14" r="13.5" fill="none"/>
+      </g>
+    </g>
+    <g id="gen018" transform="translate(743.042 50)">
+      <path id="빼기_3" data-name="빼기 3" d="M5.952,14.334a1.1,1.1,0,0,1-.817-.366L1.513,9.92A5.953,5.953,0,0,1,5.259.039,6.114,6.114,0,0,1,5.952,0,5.953,5.953,0,0,1,10.39,9.92L6.768,13.969A1.1,1.1,0,0,1,5.952,14.334Zm0-10.614A2.232,2.232,0,1,0,8.184,5.953,2.235,2.235,0,0,0,5.951,3.721Z" transform="translate(388.001 122)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

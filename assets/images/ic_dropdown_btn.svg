@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="ic_dropdown_btn" transform="translate(27.76 -2) rotate(90)">
+    <rect id="slice" width="28" height="28" transform="translate(2 27.76) rotate(-90)" fill="none"/>
+    <rect id="Rectangle_78" data-name="Rectangle 78" width="4" height="4" rx="2" transform="translate(14 3.76)" fill="#fff"/>
+    <rect id="Rectangle_78-2" data-name="Rectangle 78" width="4" height="4" rx="2" transform="translate(22 3.76)" fill="#fff"/>
+    <rect id="Rectangle_77" data-name="Rectangle 77" width="4" height="4" rx="2" transform="translate(6 3.76)" fill="#fff"/>
+  </g>
+</svg>

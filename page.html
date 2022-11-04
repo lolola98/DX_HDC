@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DX</title>
+    <style>
+        body{
+            font-size: 14px;
+        }
+        h1{
+            font-size: 18px;
+        }
+        h2{
+            position: relative;
+            font-size: 15px;
+            padding-left: 25px;
+        }
+        h2:after{
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            content: '';
+            width: 5px;
+            height: 5px;
+            margin-top: -5px;
+            border-radius: 50%;
+            border: 3px solid;
+        }
+        header{
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        table{
+            width: 100%;
+            border: 1px solid #ddd;
+            border-spacing: 0;
+            border-top: 1px solid #999;
+            border-bottom: 1px solid #999;
+            border-left: none;
+        }
+        thead {
+            background: #444;
+            color: #fff;
+        }
+        th,td{
+            padding: 5px;
+        }
+        td{
+            text-align: center;
+            border-top: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+        }
+        .mb-20{
+            margin-bottom:20px;
+        }
+        i.finish{
+        display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #fdc725;
+            margin-right: 5px;
+            margin-left: 10px;
+        }
+        tr.finish{
+            background-color: #fff8be;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>[KT] 산업안전DX</h1>
+    </header>
+    <div>
+        <span><i class="finish"></i>완료</span>
+    </div>
+    <div class="mb-20">
+        <h2>layout</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <thead>
+                <th>대 메뉴명</th>
+                <th>2 depth</th>
+                <th>3 depth</th>
+                <th>비고</th>
+            </thead>
+            <tbody>
+                <tr class="finish">
+                    <td>layout</td>
+                    <td>알림</td>
+                    <td></td>
+                    <td><a href="layout.html">layout.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>alert </td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="alert.html">alert.html</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div class="mb-20">
+        <h2>로그인</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td><strong>로그인</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="login.html" target="_blank">login.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td><strong>SMS OTP</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="login_sms.html" target="_blank">login_sms.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>가입하기</td>
+                    <td></td>
+                    <td><a href="login_join.html" target="_blank">login_join.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>팝업</td>
+                    <td>아이디 찾기( modal-find-ID )</td>
+                    <td></td>
+                    <td><a href="popup_find_Id.html.html" target="_blank">popup_find_Id.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>팝업</td>
+                    <td>비밀번호 찾기</td>
+                    <td></td>
+                    <td><a href="popup_find_password.html" target="_blank">popup_find_password.html</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div  class="mb-20">
+        <h2>Dashboard</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td><strong>dashboard</strong></td>
+                    <td>최초 로그인 안내 팝업</td>
+                    <td></td>
+                    <td><a href="popup_first_login.html" target="_blank">popup_first_login.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>홈 화면 (기본탭)</td>
+                    <td>내정보 관리, 알림설정</td>
+                    <td><a href="dashboard.html" target="_blank">dashboard.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>회원 탈퇴 ( modal-withdraw )</td>
+                    <td><a href="popup_withdraw.html" target="_blank">popup_withdraw.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>내 정보 수정( modal-profile-edit )</td>
+                    <td><a href="popup_profile_edit.html" target="_blank">popup_profile_edit.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>비밀번호 변경( modal-password-change )</td>
+                    <td><a href="popup_password_change.html" target="_blank">popup_password_change.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>알림 수신 설정( modal-notification-setting )</td>
+                    <td><a href="popup_notification_setting.html" target="_blank">popup_notification_setting.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>위젯 수정 ( modal-widget-edit )</td>
+                    <td><a href="popup_widgetEdit.html" target="_blank">popup_widgetEdit.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>위젯 선택( modal-widget-add )</td>
+                    <td><a href="popup_widgetAdd.html" target="_blank">popup_widgetAdd.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>경보 팝업( modal-alarm-details )</td>
+                    <td><a href="popup_alarmDetails.html" target="_blank">popup_alarmDetails.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>탭 추가하기( modal-tab-add )</td>
+                    <td><a href="popup_tab_add.html" target="_blank">popup_tab_add.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>이름변경( modal-name-change)</td>
+                    <td><a href="popup_name_change.html" target="_blank">popup_name_change.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>순서변경( modal-order-change)</td>
+                    <td><a href="popup_order_change.html" target="_blank">popup_order_change.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>공유 하기( modal-share )</td>
+                    <td><a href="popup_share.html" target="_blank">popup_share.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>위젯 추가( modal-widget-setting )</td>
+                    <td><a href="popup_widget_setting.html" target="_blank">popup_widget_setting.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>cctv 장비선택( modal-equipment-select )</td>
+                    <td><a href="popup_equipment_select.html" target="_blank">popup_equipment_select.html</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div  class="mb-20">
+        <h2>Widget</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td><strong>widget</strong></td>
+                    <td>데이터 표시 불가</td>
+                    <td></td>
+                    <td><a href="widget_noData.html" target="_blank">widget_noData.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>장비 위치 현황 (3*2)</td>
+                    <td>경보상태(warning)</td>
+                    <td><a href="widget_equipment_position.html" target="_blank">widget_equipment_position.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>장비 리스트 (2*2)</td>
+                    <td></td>
+                    <td><a href="widget_equipment_list.html" target="_blank">widget_equipment_list.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>장비 상태 (2*2)</td>
+                    <td></td>
+                    <td><a href="widget_equipment_condition.html" target="_blank">widget_equipment_condition.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>장비 신호등 (2*1)</td>
+                    <td></td>
+                    <td><a href="widget_equipment_notic.html" target="_blank">widget_equipment_notic.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>경보 리스트 (2*2)</td>
+                    <td></td>
+                    <td><a href="widget_warning_list.html" target="_blank">widget_warning_list.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>경보 신호 (3*1)</td>
+                    <td></td>
+                    <td><a href="widget_warning_notic.html" target="_blank">widget_warning_notic.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>개별 장비 (1*3)</td>
+                    <td></td>
+                    <td><a href="widget_equipment_each.html" target="_blank">widget_equipment_each.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>CCTV (3*2)</td>
+                    <td></td>
+                    <td><a href="widget_cctv.html" target="_blank">widget_cctv.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>그래프 (3*2)</td>
+                    <td></td>
+                    <td><a href="widget_graph.html" target="_blank">widget_graph.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>상태 현황 (2*1)</td>
+                    <td></td>
+                    <td><a href="widget_state.html" target="_blank">widget_state.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>웹 프레임 (3*2)</td>
+                    <td></td>
+                    <td><a href="widget_webframe.html" target="_blank">widget_webframe.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>이미지 (3*2)</td>
+                    <td></td>
+                    <td><a href="widget_image.html" target="_blank">widget_image.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>날씨-기본 (2*1)</td>
+                    <td></td>
+                    <td><a href="widget_weather.html" target="_blank">widget_weather.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>날씨-상세 (2*2)</td>
+                    <td></td>
+                    <td><a href="widget_weather_details.html" target="_blank">widget_weather_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>디데이 (1*1)</td>
+                    <td></td>
+                    <td><a href="widget_dday.html" target="_blank">widget_dday.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>위치정보 (4*4) (추가)</td>
+                    <td></td>
+                    <td><a href="widget_map.html" target="_blank">widget_map.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>현장정보 (4*3) (추가)</td>
+                    <td></td>
+                    <td><a href="widget_fieldInfo.html" target="_blank">widget_fieldInfo.html</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div  class="mb-20">
+        <h2>경보 내역</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td><strong>경보 내역</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="warning_history.html" target="_blank">warning_history.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>경보생성( modal-warning-create )</td>
+                    <td><a href="popup_warning_create.html" target="_blank">popup_warning_create.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>조치내용 ( modal-warning-content )</td>
+                    <td><a href="popup_warning_content.html" target="_blank">popup_warning_content.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>조치내용 편집 ( modal-warning-contentEdit )</td>
+                    <td><a href="popup_warning_contentEdit.html" target="_blank">popup_warning_contentEdit.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>장비상세 팝업( modal-equipment-details )</td>
+                    <td><a href="popup_equipment_details.html" target="_blank">popup_equipment_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>장비상세2 팝업( modal-equipment-details )</td>
+                    <td><a href="popup_equipment_details2.html" target="_blank">popup_equipment_details2.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>경보 상세 팝업 ( modal-warning-details )</td>
+                    <td><a href="popup_warning_details.html" target="_blank">popup_warning_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>책임조치자 변경</td>
+                    <td><a href="popup_responsible_change.html" target="_blank">popup_responsible_change.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>조치 완료자 확인 요청</td>
+                    <td><a href="popup_finished_confirm.html" target="_blank">popup_finished_confirm.html</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div  class="mb-20">
+        <h2>이벤트 이력</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td><strong>이벤트 이력</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="event_history.html" target="_blank">event_history.html</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div  class="mb-20">
+        <h2>장비 현황(추가)</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td><strong>장비 현황</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="equipment_state.html" target="_blank">equipment_state.html</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div  class="mb-20">
+        <h2>공지사항</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td><strong>공지사항</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="notic.html" target="_blank">notic.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="notic_register.html" target="_blank">notic_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="notic_details.html" target="_blank">notic_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="notic_edit.html" target="_blank">notic_edit.html</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div  class="mb-20">
+        <h2>고객지원</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td><strong>고객지원</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="customer_support.html" target="_blank">customer_support.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="customer_support_register.html" target="_blank">customer_support_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="customer_support_details.html" target="_blank">customer_support_details.html</a></td>
+                <tr class="finish">
+                    <td></td>
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="customer_support_edit.html" target="_blank">customer_support_edit.html</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div  class="mb-20">
+        <h2>계정관리</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td><strong>계정관리</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="account_management.html" target="_blank">account_management.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="account_management_register.html" target="_blank">account_management_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="account_management_details.html" target="_blank">account_management_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="account_management_edit.html" target="_blank">account_management_edit.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>계정 승인(modal-account)</td>
+                    <td><a href="popup_account_authorize.html" target="_blank">popup_account_authorize.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>계정 일괄 등록(modal-account)</td>
+                    <td><a href="popup_account_allRegister.html" target="_blank">popup_account_allRegister.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>팝업</td>
+                    <td>계정 일괄 등록 결과(modal-account)</td>
+                    <td><a href="popup_account_registerResult.html" target="_blank">popup_account_registerResult.html</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div  class="mb-20">
+        <h2>솔루션 관리</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td rowspan="4"><strong>솔루션사 관리</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="solution_management.html" target="_blank">solution_management.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="solution_management_register.html" target="_blank">solution_management_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="solution_management_details.html" target="_blank">solution_management_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="solution_management_edit.html" target="_blank">solution_management_edit.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td rowspan="4"><strong>모델 관리</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="model_management.html" target="_blank">model_management.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="model_management_register.html" target="_blank">model_management_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="model_management_details.html" target="_blank">model_management_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="model_management_edit.html" target="_blank">model_management_edit.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td rowspan="4"><strong>경보 조건 관리</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="warning_condition_management.html" target="_blank">warning_condition_management.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="warning_condition_management_register.html" target="_blank">warning_condition_management_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="warning_condition_management_details.html" target="_blank">warning_condition_management_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="warning_condition_management_edit.html" target="_blank">warning_condition_management_edit.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td rowspan="4"><strong>프로퍼티 관리</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="property_management.html" target="_blank">property_management.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="property_management_register.html" target="_blank">property_management_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="property_management_details.html" target="_blank">property_management_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="property_management_edit.html" target="_blank">property_management_edit.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td rowspan="5"><strong>리소스 관리</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="resource_management.html" target="_blank">resource_management.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="resource_management_register.html" target="_blank">resource_management_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="resource_management_details.html" target="_blank">resource_management_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="resource_management_edit.html" target="_blank">resource_management_edit.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>팝업</td>
+                    <td>프로퍼티 추가</td>
+                    <td><a href="popup_property_add.html" target="_blank">popup_property_add.html</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div  class="mb-20">
+        <h2>전체 작업장 관리</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td rowspan="4"><strong>사업장 관리</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="workplace_management.html" target="_blank">workplace_management.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="workplace_management_register.html" target="_blank">workplace_management_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="workplace_management_details.html" target="_blank">workplace_management_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="workplace_management_edit.html" target="_blank">workplace_management_edit.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td rowspan="4"><strong>작업장 관리</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="workshop_management.html" target="_blank">workshop_management.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="workshop_management_register.html" target="_blank">workshop_management_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="workshop_management_details.html" target="_blank">workshop_management_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="workshop_management_edit.html" target="_blank">workshop_management_edit.html</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div  class="mb-20">
+        <h2>개별 작업장 관리</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td rowspan="6"><strong>장비 관리</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="equipment_management.html" target="_blank">equipment_management.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="equipment_management_register.html" target="_blank">equipment_management_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td rowspan="2">팝업</td>
+                    <td>장비 일괄 등록 (modal-equipment-register)</td>
+                    <td><a href="popup_equipment_allRegister.html" target="_blank">popup_equipment_allRegister.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>장비 일괄 등록 결과 (modal-equipment-register)</td>
+                    <td><a href="popup_equipment_registerResult.html" target="_blank">popup_equipment_registerResult.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="equipment_management_details.html" target="_blank">equipment_management_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="equipment_management_edit.html" target="_blank">equipment_management_edit.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td rowspan="4"><strong>장비 위치 관리</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="location_management.html" target="_blank">location_management.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="location_management_register.html" target="_blank">location_management_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="location_management_details.html" target="_blank">location_management_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="location_management_edit.html" target="_blank">location_management_edit.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td rowspan="4"><strong>경보 관리</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="warning_management.html" target="_blank">warning_management.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="warning_management_register.html" target="_blank">warning_management_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="warning_management_details.html" target="_blank">warning_management_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="warning_management_edit.html" target="_blank">warning_management_edit.html</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div  class="mb-20">
+        <h2>운영 관리</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td rowspan="6"><strong>약관 관리</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="terms_management.html" target="_blank">terms_management.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>팝업</td>
+                    <td>약관 관리 순서 변경(modal-order-change)</td>
+                    <td><a href="popup_terms_order_change.html" target="_blank">terms_management_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>팝업</td>
+                    <td>상세 팝업(modal-terms-details)</td>
+                    <td><a href="popup_terms_details.html" target="_blank">popup_terms_details.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>등록</td>
+                    <td></td>
+                    <td><a href="terms_management_register.html" target="_blank">terms_management_register.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>상세</td>
+                    <td></td>
+                    <td><a href="terms_management_details.html" target="_blank">terms_management_details.html</a></td>
+                </tr>
+
+                <tr class="finish">
+                    <td>수정</td>
+                    <td></td>
+                    <td><a href="terms_management_edit.html" target="_blank">terms_management_edit.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td rowspan="2"><strong>기본탭 관리</strong></td>
+                    <td>리스트</td>
+                    <td></td>
+                    <td><a href="default_tab_management.html" target="_blank">default_tab_management.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td>팝업</td>
+                    <td>디폴트 위젯(default)</td>
+                    <td><a href="widget_default.html" target="_blank">widget_default.html</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <div  class="mb-20">
+        <h2>통계</h2>
+        <table>
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="20%">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr class="finish">
+                    <td><strong>통계</strong></td>
+                    <td>경보 통계</td>
+                    <td></td>
+                    <td><a href="warning_statistics.html" target="_blank">warning_statistics.html</a></td>
+                </tr>
+                <tr class="finish">
+                    <td></td>
+                    <td>장비 통계</td>
+                    <td></td>
+                    <td><a href="equipment_statistics.html" target="_blank">equipment_statistics.html</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+        <app-widget-parent _ngcontent-wtq-c45=""><app-widget-parent _ngcontent-wtq-c45="">
+    </div>
+</body>
+</html>

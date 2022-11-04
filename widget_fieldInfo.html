@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+<body style="background-color: #D9DDE7; padding-top: 100px;">
+
+    <div class="dashboard d-flex flex-center">
+        <!-- width,height값은 임시로 넣어 두었습니다.-->
+        <!-- 여기서 부터 가져가시면 됩니다 -->
+        <div class="card w-field-info" style="width: 800px; height: 500px; height: 500px">
+            <div class="card-header align-items-center border-0 mt-4">
+                <h3 class="card-title align-items-start flex-column">
+                    <span class="fw-bolder mb-2 text-dark">현장 정보</span>
+                    <span class="text-muted fw-normal fs-16">전국 현장</span>
+                </h3>
+            </div>
+            <div class="card-body pt-5">
+                <div class="data-list">
+                    <div>
+                        <table class="table table-basic table-fixed">
+                            <colgroup>
+                                    <col style="width: 70px">
+                                    <col>
+                                    <col style="width: 200px">
+                                    <col>
+                                    <col style="width: 130px">
+                                    <col style="width: 50px">
+                                    <col>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th class="text-center">No</th>
+                                    <th class="text-center">지역</th>
+                                    <th class="text-center">현장명</th>
+                                    <th class="text-center">소장</th>
+                                    <th class="text-center">현장 연락처</th>
+                                    <th class="text-center">지도</th>
+                                    <th class="text-center">CCTV 상태</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="scroll">
+                        <table class="table table-basic table-fixed" >
+                            <colgroup>
+                                <col style="width: 70px">
+                                <col>
+                                <col style="width: 200px">
+                                <col>
+                                <col style="width: 130px">
+                                <col style="width: 50px">
+                                <col>
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <td colspan="7" class="text-center border-bottom-0 pt-10">
+                                        일치하는 내용이 없습니다.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center" >충남</td>
+                                    <td class="text-center"><div class="text-truncate"><a href="" class="btn-link ">충남 논산 아이파크</a></div></td>
+                                    <td class="text-center"><div class="text-truncate"><a href="" class="btn-link ">홍길동</a></div></td>
+                                    <td class="text-center">000-0000-0000</td>
+                                    <td class="text-center cursor-pointer"><img src="assets/images/map_ic_cctv_n.svg"></td>
+                                    <td class="text-center"><span class="normal"></span>0/10</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">9999</td>
+                                    <td class="text-center" >인천</td>
+                                    <td class="text-center"><div class="text-truncate"><a href="" class="btn-link ">가나다라마바사아자차</a></div></td>
+                                    <td class="text-center"><div class="text-truncate"><a href="" class="btn-link ">홍길동</a></div></td>
+                                    <td class="text-center">000-0000-0000</td>
+                                    <td class="text-center cursor-pointer"><img src="assets/images/map_ic_cctv_s.svg"></td>
+                                    <td class="text-center"><span class="abnormal"></span>1/10</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 여기까지 -->
+    </div>
+
+</body>
+</html>

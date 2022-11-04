@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.505" y1="0.068" x2="0.505" y2="0.931" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffce00"/>
+      <stop offset="1" stop-color="#ff9a0a"/>
+    </linearGradient>
+    <filter id="타원_127" x="15" y="15" width="90" height="90" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#ffd400" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="weather_01" transform="translate(-2059.689 -125.689)">
+    <rect id="slice" width="120" height="120" transform="translate(2059.689 125.689)" fill="#fff" opacity="0"/>
+    <g transform="matrix(1, 0, 0, 1, 2059.69, 125.69)" filter="url(#타원_127)">
+      <circle id="타원_127-2" data-name="타원 127" cx="42" cy="42" r="42" transform="translate(18 18)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

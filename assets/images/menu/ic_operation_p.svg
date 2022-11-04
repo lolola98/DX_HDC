@@ -1,0 +1,7 @@
+<svg id="ic_operation_p" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="bound" width="24" height="24" fill="none"/>
+  <g id="gen005" transform="translate(4 2)">
+    <path id="패스_7" data-name="패스 7" d="M259,94H245a1,1,0,0,1-1-1V75a1,1,0,0,1,1-1h9l6,6V93A1,1,0,0,1,259,94Zm-4-5a1,1,0,0,0-1-1h-6a1,1,0,0,0,0,2h6A1,1,0,0,0,255,89Zm2-5a1,1,0,0,0-1-1h-8a1,1,0,0,0,0,2h8A1,1,0,0,0,257,84Zm0-5a1,1,0,0,0-1-1h-8a1,1,0,0,0,0,2h8A1,1,0,0,0,257,79Z" transform="translate(-244 -74)" fill="#fff" opacity="0.3"/>
+    <path id="패스_8" data-name="패스 8" d="M255,80h5l-6-6v5A1,1,0,0,0,255,80Z" transform="translate(-244 -74)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bac1c6"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.726" y1="0.092" x2="-0.726" y2="0.955" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffce00"/>
+      <stop offset="1" stop-color="#ff9a0a"/>
+    </linearGradient>
+    <filter id="타원_129" x="11.235" y="22.473" width="56.946" height="56.946" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#ffd400" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d6dee6"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+  </defs>
+  <g id="weather_02" transform="translate(-2114 -126)">
+    <rect id="slice" width="120" height="120" transform="translate(2114 126)" fill="#fff" opacity="0"/>
+    <path id="패스_394" data-name="패스 394" d="M213.386,4.75a31.121,31.121,0,0,0-29.513,22.045c-.509-.039-.995-.153-1.513-.153C171.116,26.642,162,36,162,47.536s9.116,20.9,20.36,20.9h31.026c17.133,0,31.026-14.259,31.026-31.841S230.519,4.75,213.386,4.75Z" transform="translate(1957.994 135.485)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 2114, 126)" filter="url(#타원_129)">
+      <circle id="타원_129-2" data-name="타원 129" cx="25.473" cy="25.473" r="25.473" transform="translate(14.23 25.47)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <path id="패스_395" data-name="패스 395" d="M227.026,11.178c-16.77,0-30.969,11.25-35.863,26.792-.617-.048-1.211-.189-1.837-.189-13.662,0-24.742,11.37-24.742,25.389s11.079,25.392,24.742,25.392h37.7c20.816,0,37.7-17.328,37.7-38.692S247.841,11.178,227.026,11.178Z" transform="translate(1963.153 148.32)" opacity="0.9" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

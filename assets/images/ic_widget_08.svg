@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="80" viewBox="0 0 150 80">
+  <g id="ic_widget_08" transform="translate(-18.897 -16)">
+    <rect id="사각형_249" data-name="사각형 249" width="150" height="80" transform="translate(18.897 16)" fill="none"/>
+    <g id="사각형_250" data-name="사각형 250" transform="translate(33.897 16)" fill="#fff" stroke="#98a0c0" stroke-width="2">
+      <rect width="120" height="80" stroke="none"/>
+      <rect x="1" y="1" width="118" height="78" fill="none"/>
+    </g>
+    <g id="그룹_1195" data-name="그룹 1195" transform="translate(49 26)">
+      <line id="선_2" data-name="선 2" x2="115" y2="75" transform="translate(-12.603 -7.5)" fill="none" stroke="#dfe1eb" stroke-linecap="round" stroke-width="1" stroke-dasharray="1 3"/>
+      <line id="선_3" data-name="선 3" x1="115" y2="76" transform="translate(-12.603 -7.5)" fill="none" stroke="#dfe1eb" stroke-linecap="round" stroke-width="1" stroke-dasharray="1 3"/>
+      <rect id="사각형_207" data-name="사각형 207" width="41" height="41" transform="translate(24.897 10)" fill="#fff"/>
+      <path id="Icon_open-video" data-name="Icon open-video" d="M2.056,0A2.062,2.062,0,0,0,0,2.056V18.507a2.062,2.062,0,0,0,2.056,2.056H22.619a2.036,2.036,0,0,0,2.056-2.056V12.338l4.113,4.113H32.9V4.113H28.788L24.676,8.225V2.056A2.036,2.036,0,0,0,22.619,0Z" transform="translate(29.095 19.591)" fill="#98a0c0"/>
+    </g>
+  </g>
+</svg>

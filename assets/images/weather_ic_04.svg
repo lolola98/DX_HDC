@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d6dee6"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.496" y1="0.373" x2="0.496" y2="1.493" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#54ddff"/>
+      <stop offset="1" stop-color="#5dd3ff" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.55" y1="-0.482" x2="0.55" y2="0.644" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="0.96" y1="0.212" x2="0.96" y2="1.335" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-5" x1="1.063" y1="-0.287" x2="1.063" y2="0.825" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-6" x1="0.48" y1="1.05" x2="0.48" y2="-0.087" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="weather_04" transform="translate(-2194 -173)">
+    <rect id="slice" width="120" height="120" transform="translate(2194 173)" fill="#fff" opacity="0"/>
+    <path id="패스_415" data-name="패스 415" d="M449.953,27.561c-.573,0-1.137.042-1.7.084a32.977,32.977,0,0,0-63.132.255c-.54-.045-1.062-.168-1.611-.168a22.024,22.024,0,0,0-21.762,22.3,22.024,22.024,0,0,0,21.762,22.3h65.676s22.548.774,22.548-22.6C471.736,37.7,461.983,27.561,449.953,27.561Z" transform="translate(1837.5 181.676)" fill="url(#linear-gradient)"/>
+    <path id="패스_416" data-name="패스 416" d="M375.67,45.356a3,3,0,0,1-4.1,1.1h0a3,3,0,0,1-1.1-4.1l12-20.784a3,3,0,0,1,4.1-1.1h0a3,3,0,0,1,1.1,4.1Z" transform="translate(1854.144 213.144)" fill="url(#linear-gradient-2)"/>
+    <path id="패스_417" data-name="패스 417" d="M390.526,54.552a3,3,0,0,1-4.1,1.1h0a3,3,0,0,1-1.1-4.1l15-25.98a3,3,0,0,1,4.1-1.1h0a3,3,0,0,1,1.1,4.1Z" transform="translate(1883.856 221.144)" fill="url(#linear-gradient-3)"/>
+    <path id="패스_418" data-name="패스 418" d="M376.134,53.748a3,3,0,0,1-4.1,1.1h0a3,3,0,0,1-1.1-4.1l13.5-23.382a3,3,0,0,1,4.1-1.1h0a3,3,0,0,1,1.1,4.1Z" transform="translate(1855.072 224.732)" fill="url(#linear-gradient-4)"/>
+    <path id="패스_419" data-name="패스 419" d="M385.062,49.088a3,3,0,0,1-4.1,1.1h0a3,3,0,0,1-1.1-4.1l9-15.588a3,3,0,0,1,4.1-1.1h0a3,3,0,0,1,1.1,4.1Z" transform="translate(1872.928 231)" fill="url(#linear-gradient-5)"/>
+    <path id="패스_420" data-name="패스 420" d="M381.1,68.738a3,3,0,0,1-4.1,1.1h0a3,3,0,0,1-1.1-4.1l27-46.764a3,3,0,0,1,4.1-1.1h0a3,3,0,0,1,1.1,4.1Z" transform="translate(1865 207.948)" fill="url(#linear-gradient-6)"/>
+  </g>
+</svg>

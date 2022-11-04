@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bac1c6"/>
+      <stop offset="1" stop-color="#dfe2e6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d6dee6"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+  </defs>
+  <g id="weather_03" transform="translate(-2168 -126)">
+    <rect id="slice" width="120" height="120" transform="translate(2168 126)" fill="#fff" opacity="0"/>
+    <path id="패스_402" data-name="패스 402" d="M326.528,27.563c-.549,0-1.086.039-1.624.081a31.539,31.539,0,0,0-60.38.24c-.519-.039-1.017-.156-1.543-.156a21.041,21.041,0,0,0-20.814,21.3,21.044,21.044,0,0,0,20.814,21.3H325.8s21.564.762,21.564-21.585A21.13,21.13,0,0,0,326.528,27.563Z" transform="translate(1932.337 136.707)" fill="url(#linear-gradient)"/>
+    <path id="패스_403" data-name="패스 403" d="M319.473,34.526c-.471,0-.933.036-1.4.072a27.089,27.089,0,0,0-51.862.207c-.447-.036-.873-.138-1.327-.138a18.235,18.235,0,0,0,0,36.463h53.954s18.524.72,18.524-18.476A18.094,18.094,0,0,0,319.473,34.526Z" transform="translate(1942.035 156.914)" opacity="0.9" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+
+<body class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-fixed">
+    <div class="d-flex flex-column flex-root">
+        <!-- S:: page -->
+        <div class="page d-flex flex-row flex-column-fluid">
+            <!-- S:: menu -->
+            <div class="aside">
+                <div class="aside-header p-5 d-flex justify-content-between border-bottom">
+                    <div class="d-flex flex-column">
+                        <span class="fs-2 fw-bold">홍길동</span>
+                        <span class="fs-5 text-muted">hong1234</span>
+                    </div>
+                    <div class="aside-toggle"></div>
+                </div>
+                <div class="aside-menu flex-column-fluid">
+                    <div class="hover-scroll-overlay-y px-2 my-5" style="height: calc(100vh - 180px);">
+                        <ul class="menu menu-column metismenu">
+                            <li class="menu-item menu1 mm-active">
+                                <a class="menu-link" href="dashboard.html">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">대시보드</span>
+                                </a>
+                            </li>
+                            <li class="menu-item menu2">
+                                <a class="menu-link" href="warning_history.html">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">경보내역</span>
+                                </a>
+
+                            </li>
+                            <li class="menu-item menu3">
+                                <a class="menu-link" href="event_history.html">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">이벤트 이력</span>
+                                </a>
+
+                            </li>
+                            <li class="menu-item menu4">
+                                <a class="menu-link" href="notic.html">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">공지사항</span>
+                                </a>
+
+                            </li>
+                            <li class="menu-item menu5">
+                                <a class="menu-link" href="customer_support.html">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">고객지원</span>
+                                </a>
+
+                            </li>
+                            <li class="menu-item border-top mt-3 mb-0">
+                                <div class="menu-content pt-3">
+                                    <span class="menu-section text-muted text-uppercase fs-6 ls-1">관리 메뉴</span>
+                                </div>
+                            </li>
+                            <li class="menu-item menu6">
+                                <a class="menu-link" href="account_management.html">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">계정 관리
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item is-submenu menu7">
+                                <a class="menu-link" class="has-arrow" aria-expanded="false">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">솔루션 관리</span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="">
+                                    <li class="menu-item menu7-1">
+                                        <a class="menu-link" href="solution_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">솔루션사 관리</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu7-2">
+                                        <a class="menu-link" href="model_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">모델 관리</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu7-3">
+                                        <a class="menu-link" href="warning_condition_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">경보 조건 관리</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item is-submenu  menu8">
+                                <a class="menu-link" class="has-arrow" aria-expanded="false">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">전체 작업장 관리</span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="">
+                                    <li class="menu-item menu8-1">
+                                        <a class="menu-link" href="workplace_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">사업장 관리</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu8-2">
+                                        <a class="menu-link" href="workshop_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">작업장 관리</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item is-submenu  menu9">
+                                <a class="menu-link" class="has-arrow" aria-expanded="false">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">개별 작업장 관리</span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="">
+                                    <li class="menu-item menu9-1">
+                                        <a class="menu-link" href="equipment_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">장비 관리</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu9-2">
+                                        <a class="menu-link" href="location_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">장비 위치 관리</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu9-3">
+                                        <a class="menu-link" href="warning_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">경보 관리</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item is-submenu menu10">
+                                <a class="menu-link" class="has-arrow" aria-expanded="false">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">운영 관리</span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul>
+                                    <li class="menu-item menu10-1">
+                                        <a class="menu-link" href="terms_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">약관 관리</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu10-2">
+                                        <a class="menu-link" href="tab_management.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">기본탭 관리</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item is-submenu menu11">
+                                <a class="menu-link" class="has-arrow" aria-expanded="false">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">통계</span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="">
+                                    <li class="menu-item menu11-1">
+                                        <a class="menu-link" href="warning_statistics.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">경보 통계</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu11-2">
+                                        <a class="menu-link" href="equipment_statistics.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">장비 통계</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu11-3">
+                                        <a class="menu-link" href="operation_statistics.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-hyphen"></span>
+                                            </span>
+                                            <span class="menu-title">운영 통계</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu12">
+                                <a class="menu-link" href="#">
+                                    <span class="menu-icon"></span>
+                                    <span class="menu-title">사용자 매뉴얼</span>
+                                </a>
+                                <ul></ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- E:: menu -->
+            <!-- S:: wrapper -->
+            <div class="wrapper d-flex flex-column flex-row-fluid">
+                <!-- S:: header -->
+                <div class="header">
+                    <div class="container-fluid d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <span class="btn-aside-close me-4 "><img src="assets/images/ic_menu_toggle_off.svg"></span>
+                            <h1 class="logo cursor-pointer"><img src="assets/images/kt_logo_w.svg"></h1>
+
+                        </div>
+                        <div>
+                            <div class="noti btn btn-icon w-40px h-40px position-relative">
+                                <img src="assets/images/ic_noti.svg">
+                                <span
+                                    class="bullet bullet-dot bg-danger h-6px w-6px position-absolute translate-middle top-0 start-50 animation-blink"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- E:: header -->
+                <!-- S:: content -->
+                <div class="content d-flex flex-column flex-column-fluid">
+                    <div class="content-container animated fadeInRight">
+                        <div class="eachWorkshop-management-edit d-flex justify-content-center content-area">
+                            <div class="d-flex">
+                                <div class="left-area">
+                                    <h2 class="fs-22 px-6">장비 위치 관리</h2>
+                                    <p class="text-muted fs-16 px-6">장비 위치 관리 / 수정</p>
+                                    <div class="pt-5 pb-12">
+                                        <table class="table table-basic table-vertical">
+                                            <colgroup>
+                                                <col width="150px">
+                                                <col>
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <th>
+                                                        <label class="col-form-label fs-18">구역</label>
+                                                    </th>
+                                                    <td>
+                                                        광주공장 > 1공장 > 1층 > 1구역
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="border-bottom-0">
+                                                        <label class="col-form-label fs-18">구분</label>
+                                                    </th>
+                                                    <td class="border-bottom-0">
+                                                            도면
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" class="px-6 pb-5 pt-3">
+                                                        <div class="d-flex justify-content-between">
+                                                            <div class="fs-17 text-black pt-3">
+                                                                <div><span class="text-danger">*</span> 우측의 배치 가능 장비에서 장비를 선택 후 끌어서 배치할 수 있습니다. </div>
+                                                                <div><span class="text-danger">*</span> 지도/도면 상에는 고정형 장비만 배치 가능합니다. </div>
+                                                                <div><span class="text-danger">*</span> 이동형 장비는 하단 별도 영역에 끌어다 놓을 수 있습니다.</div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- 결과 -->
+                                        <div class="d-flex justify-content-between border-bottom py-5">
+                                            <div class="floorPlan-area">
+                                                <div class="floorPlan-map">
+                                                    <i class="cctv select" style="position: absolute; top:100px; left: 100px;"></i>
+                                                    <i class="no-entry select" style="position: absolute; top:100px; left: 200px;"></i>
+                                                    <i class="becon" style="position: absolute; top:150px; left: 180px;"></i>
+                                                    <!-- 맵 영역 -->
+                                                    <div class="position-relative">
+                                                        <img src="assets/images/img_floorplan2.png" class="w-100">
+                                                    </div>
+                                                </div>
+                                                <div class="equipment-list ">
+                                                    <div class="fs-18 text-gray-800 fw-bolder">이동형 장비</div>
+                                                    <div class="equipment-icon mt-4">
+                                                        <!-- 선택 select, 크기는 icon-md -->
+                                                        <i class="cctv icon-md select"></i>
+                                                        <i class="IQ-cctv icon-md"></i>
+                                                        <i class="fence icon-md"></i>
+                                                        <i class="no-entry icon-md"></i>
+                                                        <i class="becon icon-md"></i>
+                                                        <i class="vital-signal icon-md"></i>
+                                                        <i class="thermometer icon-md"></i>
+                                                        <i class="anemometer icon-md"></i>
+                                                        <i class="fire-detector icon-md"></i>
+                                                        <i class="toxicgas icon-md"></i>
+                                                        <i class="fine-dust icon-md"></i>
+                                                        <i class="body-cam icon-md"></i>
+                                                        <i class="safety-hook icon-md"></i>
+                                                        <i class="safety-helmet icon-md"></i>
+                                                        <i class="smart-watch icon-md"></i>
+                                                        <i class="humidity icon-md"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div  class="equipment-area">
+                                                <div class="border rounded">
+                                                    <div class="border-bottom2 pt-6 px-6">
+                                                        <h2 class="fs-22 mb-4 ">배치 가능 장비</h2>
+                                                        <div class=" py-3">
+                                                            <div class="d-flex mb-3">
+                                                                <select  class="form-select w-75">
+                                                                    <option>모델 전체</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="d-flex justify-content-between align-items-center">
+                                                                <input type="text" class="form-control w-75">
+                                                                <button type="button"
+                                                                    class="btn btn-basic btn-gray w-80px fs-16">검색</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="py-4 ps-6">
+                                                        <div class="scroll h-200px  ">
+                                                            <ul>
+                                                                <li>
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>고정</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>이동</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>이동</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>이동</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>이동</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="border rounded mt-7">
+                                                    <div class="pt-6 px-6">
+                                                        <h2 class="fs-22 mb-4">배치된 장비</h2>
+                                                    </div>
+                                                    <div class="py-4">
+                                                        <div class="scroll h-250px  ">
+                                                            <ul>
+                                                                <!-- 선택 select -->
+                                                                <li class="ps-6 pe-4 select">
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>고정</strong>
+                                                                        </div>
+                                                                        <button type="button" class="btn btn-icon btn-delete"></button>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="ps-6 pe-4">
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>고정</strong>
+                                                                        </div>
+                                                                        <button type="button" class="btn btn-icon btn-delete"></button>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="ps-6 pe-4">
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>고정</strong>
+                                                                        </div>
+                                                                        <button type="button" class="btn btn-icon btn-delete"></button>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="ps-6 pe-4">
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>고정</strong>
+                                                                        </div>
+                                                                        <button type="button" class="btn btn-icon btn-delete"></button>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="ps-6 pe-4">
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>고정</strong>
+                                                                        </div>
+                                                                        <button type="button" class="btn btn-icon btn-delete"></button>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="ps-6 pe-4">
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>고정</strong>
+                                                                        </div>
+                                                                        <button type="button" class="btn btn-icon btn-delete"></button>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="ps-6 pe-4">
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>고정</strong>
+                                                                        </div>
+                                                                        <button type="button" class="btn btn-icon btn-delete"></button>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="ps-6 pe-4">
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>고정</strong>
+                                                                        </div>
+                                                                        <button type="button" class="btn btn-icon btn-delete"></button>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="ps-6 pe-4">
+                                                                    <div class="equipment-item">
+                                                                        <div class="equipment">
+                                                                            <i class="cctv me-2"></i>
+                                                                            생체인식-건물입구 (FD124S785)<strong>고정</strong>
+                                                                        </div>
+                                                                        <button type="button" class="btn btn-icon btn-delete"></button>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex justify-content-end pb-10 bottom-btns">
+                                        <button type="button" class="btn btn-outline-dark fs-18 btn-basic">취소</button>
+                                        <button type="button" class="btn btn-primary fs-18  btn-basic ms-6">저장</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- E:: content -->
+                <!-- S:: footer -->
+                <div class="footer">
+                    <h1 class="logo"><img src="assets/images/footer_logo_kt.svg"></h1>
+                    <div class="footer-menu d-flex">
+                        <a href="#">이용약관</a>
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">위치기반서비스 이용약관</a>
+                    </div>
+                    <p class="copyright mb-0 mt-2">Copyright © 2022 KT. All rights reserved.</p>
+                </div>
+                <!-- E:: footer -->
+            </div>
+            <!-- E:: wrapper -->
+        </div>
+        <!-- E:: page -->
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="ic_map_01_er" transform="translate(-112 -571)">
+    <g id="ic_widget_map" transform="translate(112 571)">
+      <g id="p" fill="#f1416c" stroke="#bb2046" stroke-width="1">
+        <circle cx="14" cy="14" r="14" stroke="none"/>
+        <circle cx="14" cy="14" r="13.5" fill="none"/>
+      </g>
+    </g>
+    <path id="Icon_open-video" data-name="Icon open-video" d="M.924,0A.927.927,0,0,0,0,.924V8.317a.927.927,0,0,0,.924.924h9.241a.915.915,0,0,0,.924-.924V5.545l1.848,1.848h1.848V1.848H12.938L11.09,3.7V.924A.915.915,0,0,0,10.165,0Z" transform="translate(119 580.379)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="ic_thermometer" transform="translate(-262 -613)">
+    <g id="타원_21" data-name="타원 21" transform="translate(262 613)" fill="#50cd89" stroke="#159d53" stroke-width="1">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="13.5" fill="none"/>
+    </g>
+    <path id="Icon_feather-thermometer" data-name="Icon feather-thermometer" d="M15.681,11.685V3.351a1.851,1.851,0,0,0-3.7,0v8.335a3.331,3.331,0,1,0,3.7,0Z" transform="translate(261.648 617.788)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+    <path id="합치기_10" data-name="합치기 10" d="M-3391-2926.8a1.5,1.5,0,0,1,1-1.414v-6.286a.5.5,0,0,1,.5-.5.5.5,0,0,1,.5.5v6.286a1.5,1.5,0,0,1,1,1.414,1.5,1.5,0,0,1-1.5,1.5A1.5,1.5,0,0,1-3391-2926.8Z" transform="translate(3665 3559)" opacity="0.3"/>
+    <rect id="사각형_70" data-name="사각형 70" width="2" height="1" transform="translate(280 621)" fill="#fff"/>
+    <rect id="사각형_71" data-name="사각형 71" width="2" height="1" transform="translate(280 624)" fill="#fff"/>
+    <rect id="사각형_72" data-name="사각형 72" width="2" height="1" transform="translate(280 627)" fill="#fff"/>
+  </g>
+</svg>

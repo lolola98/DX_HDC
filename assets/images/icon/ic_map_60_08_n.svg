@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="ic_map_60_08_n" transform="translate(-262 -613)">
+    <g id="ic_widget_map" transform="translate(262 613)">
+      <circle id="n" cx="30" cy="30" r="30" fill="#50cd89"/>
+    </g>
+    <g id="그룹_1288" data-name="그룹 1288" transform="translate(275.93 626.929)">
+      <path id="합치기_14" data-name="합치기 14" d="M1,32.143a1,1,0,0,1-1-1V20.285a1,1,0,0,1,1-1H22.572a1,1,0,0,1,1,1V31.143a1,1,0,0,1-1,1ZM9.858,19.283V10.356a5.358,5.358,0,1,1,3.858,0v8.928Z" transform="translate(4.282)" fill="#fff"/>
+      <path id="합치기_12" data-name="합치기 12" d="M2.325,4.286H0V2.142H2.325a3.215,3.215,0,1,1,0,2.144Z" transform="translate(23.571 2.143)" fill="#fff" opacity="0.7"/>
+      <path id="합치기_13" data-name="합치기 13" d="M0,3.214A3.214,3.214,0,0,1,6.245,2.142H8.569V4.286H6.244A3.214,3.214,0,0,1,0,3.214Z" transform="translate(0 2.143)" fill="#fff" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

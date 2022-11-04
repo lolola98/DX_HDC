@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+<body style="background-color: #D9DDE7; padding-top: 100px;">
+    
+    <div class="dashboard d-flex flex-center">
+        <!-- width,height값은 임시로 넣어 두었습니다.-->
+        <!-- 여기서 부터 가져가시면 됩니다 -->
+        <div class="card w-equipment-list" style="width: 516px; height: 500px; height: 500px">
+            <div class="card-header align-items-center border-0 mt-4">
+                <h3 class="card-title align-items-start flex-column">
+                    <span class="fw-bolder mb-2 text-dark">장비 리스트</span>
+                    <span class="text-muted fw-normal fs-16">광주공장>1공장>1층>A구역</span>
+                </h3>
+                <div class="card-toolbar more">
+                    <button type="button" class="btn btn-sm btn-icon more"
+                        data-bs-toggle="dropdown" aria-expanded="false"></button>
+                    <ul
+                        class="dropdown-menu dropdown-menu-end menu-sub-dropdown menu menu-gray-800  menu-column menu-rounded w-100px menu-state-bg-light-primary py-3">
+                        <li class="menu-item px-3"><a class="menu-link px-3" href="#"
+                                data-bs-toggle="modal"
+                                data-bs-target="#widgetEdit">수정</a></li>
+                        <li class="menu-item px-3"><a class="menu-link px-3"
+                                href="#">삭제</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="fs-16 mb-8"><strong>위치장비 (전체 <span class="text-primary">26</span>)</strong></div>
+                <div class="data-list">
+                    <div class="state">
+                        <div
+                            class="d-flex align-items-center">
+                            <span class="title">상태</span>
+                            <span class="badge active">비정상</span>
+                            <span class="badge active">정상</span>
+                        </div>
+                    </div>
+                    <div class="thead">
+                        <table class="table table-fixed">
+                            <colgroup>
+                                <col width="35px" >
+                                <col width="90px">
+                                <col width="22%">
+                                <col width="25%">
+                                <col width="35%">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th class="text-gray-600 text-center">상태</th>
+                                    <th class="text-gray-600">모델</th>
+                                    <th class="text-gray-600">장비 명</th>
+                                    <th class="text-gray-600">장비 ID</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="scroll">
+                        <table class="table table-basic table-fixed table-lg" >
+                            <colgroup>
+                                <col width="35px" >
+                                <col width="90px">
+                                <col width="22%">
+                                <col width="25%">
+                                <col width="35%">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <td colspan="5" class="text-center border-bottom-0 pt-10">
+                                        일치하는 내용이 없습니다.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center" ><span class="badge warning"></span></td>
+                                    <td class="text-center" ><span class="badge normal">정상</span></td>
+                                    <td ><div class="text-truncate" >바디캠바디캠바디캠바디캠바디캠</div></td>
+                                    <td ><div class="text-truncate"><a href="" class="btn-link ">장비1장비1장비1장비1</a></div></td>
+                                    <td ><div class="text-truncate"><a href="" class="btn-link">31234589999999</a></div></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center"><span class="badge warning"></span></td>
+                                    <td class="text-center"><span class="badge abnormal">비정상</span></td>
+                                    <td><div class="text-truncate">바디캠</div></td>
+                                    <td><div class="text-truncate"><a href="" class="btn-link ">장비1장비1장비1장비1</a></div></td>
+                                    <td><div class="text-truncate"><a href="" class="btn-link">31234589999999</a></div></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center"></td>
+                                    <td class="text-center"><span class="badge normal">정상</span></td>
+                                    <td><div class="text-truncate">바디캠</div></td>
+                                    <td><div class="text-truncate"><a href="" class="btn-link ">장비1장비1장비1장비1</a></div></td>
+                                    <td><div class="text-truncate"><a href="" class="btn-link">31234589999999</a></div></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center"></td>
+                                    <td class="text-center"><span class="badge normal">정상</span></td>
+                                    <td><div class="text-truncate">바디캠</div></td>
+                                    <td><div class="text-truncate"><a href="" class="btn-link ">장비1장비1장비1장비1</a></div></td>
+                                    <td><div class="text-truncate"><a href="" class="btn-link">31234589999999</a></div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 여기까지 -->
+    </div>
+
+</body>
+</html>

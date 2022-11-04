@@ -1,0 +1,7 @@
+<svg id="ic_warning_n" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Bound" d="M0,0H24V24H0Z" fill="none"/>
+  <g id="그룹_65" data-name="그룹 65" transform="translate(0 0)">
+    <path id="Vector" d="M20.767,16.044,12.017.877a1.751,1.751,0,0,0-3.035,0L.233,16.044A1.75,1.75,0,0,0,1.75,18.667h17.5a1.75,1.75,0,0,0,1.517-2.623Z" transform="translate(2 3)" fill="#83849a" opacity="0.3"/>
+    <path id="Vector-2" data-name="Vector" d="M10.5,12.833A1.167,1.167,0,1,0,11.667,14,1.167,1.167,0,0,0,10.5,12.833ZM9.333,7.583a1.206,1.206,0,0,0,.016.2l.575,3.4a.584.584,0,0,0,1.151,0l.575-3.4a1.144,1.144,0,0,0,.017-.2,1.167,1.167,0,0,0-2.333,0Z" transform="translate(2 3)" fill="#83849a"/>
+  </g>
+</svg>

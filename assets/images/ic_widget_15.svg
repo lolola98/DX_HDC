@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="80" viewBox="0 0 150 80">
+  <g id="ic_widget_15" transform="translate(0.429)">
+    <rect id="사각형_188" data-name="사각형 188" width="150" height="80" transform="translate(-0.429)" fill="none"/>
+    <g id="그룹_1235" data-name="그룹 1235" transform="translate(9 16)">
+      <g id="사각형_183" data-name="사각형 183" transform="translate(45.571 4)" fill="#fff" stroke="#98a0c0" stroke-width="2">
+        <rect width="40" height="40" stroke="none"/>
+        <rect x="1" y="1" width="38" height="38" fill="none"/>
+      </g>
+    </g>
+    <rect id="사각형_257" data-name="사각형 257" width="24" height="13" rx="1" transform="translate(62.571 27)" fill="#98a0c0"/>
+    <rect id="사각형_258" data-name="사각형 258" width="19" height="2" rx="1" transform="translate(65.571 51)" fill="#cbcfdf"/>
+    <rect id="사각형_259" data-name="사각형 259" width="24" height="2" rx="1" transform="translate(62.571 45)" fill="#cbcfdf"/>
+  </g>
+</svg>

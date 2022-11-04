@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+<body>
+    <!-- 여기서부터 modal-widget-add -->
+    <div class="modal fade show modal-widget-add" id="" tabindex="-1" aria-hidden="true" style="display: block;">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-22">위젯 선택</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="widget-list">
+                        <ul class="d-flex flex-wrap">
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">장비 위치 현황<span class="fw-normal">(3x2)</span></span>
+                                    <img src="assets/images/ic_widget_01.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">장비 리스트<span class="fw-normal">(2x3)</span></span>
+                                    <img src="assets/images/ic_widget_02.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">장비 상태<span class="fw-normal">(2x2)</span></span>
+                                    <img src="assets/images/ic_widget_03.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">장비 신호등<span class="fw-normal">(2x1)</span></span>
+                                    <img src="assets/images/ic_widget_04.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">경보 리스트<span class="fw-normal">(2x3)</span></span>
+                                    <img src="assets/images/ic_widget_05.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">경보 신호등<span class="fw-normal">(3x1)</span></span>
+                                    <img src="assets/images/ic_widget_06.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">개별 장비<span class="fw-normal">(1x2)</span></span>
+                                    <img src="assets/images/ic_widget_07.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">CCTV<span class="fw-normal">(3x2)</span></span>
+                                    <img src="assets/images/ic_widget_08.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">그래프<span class="fw-normal">(3x2)</span></span>
+                                    <img src="assets/images/ic_widget_09.svg" alt="">
+                                </div>
+                            </li> 
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">상태 현황<span class="fw-normal">(2x1)</span></span>
+                                    <img src="assets/images/ic_widget_10.svg" alt="">
+                                </div>
+                            </li> 
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">웹 프레임<span class="fw-normal">(3x2)</span></span>
+                                    <img src="assets/images/ic_widget_11.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">이미지<span class="fw-normal">(3x2)</span></span>
+                                    <img src="assets/images/ic_widget_12.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">날씨-기본<span class="fw-normal">(2x1)</span></span>
+                                    <img src="assets/images/ic_widget_13.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">날씨-상세<span class="fw-normal">(2x2)</span></span>
+                                    <img src="assets/images/ic_widget_14.svg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                    <span class="fw-bolder">디데이<span class="fw-normal">(1x1)</span></span>
+                                    <img src="assets/images/ic_widget_15.svg" alt="">
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">취소</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 여기까지 -->
+    <div class="modal-backdrop fade show"></div>
+</body>
+</html>

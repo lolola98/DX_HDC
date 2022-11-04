@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산업안전 DX</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <link href="assets/css/plugins/fontawesome.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link href="assets/css/plugins/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/metisMenu.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.ko.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+<body class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-fixed">
+    <div class="d-flex flex-column flex-root">
+        <!-- S:: page -->
+        <div class="page d-flex flex-row flex-column-fluid">
+            <!-- S:: menu -->
+            <!-- E:: menu -->
+            <!-- S:: wrapper -->
+            <div class="wrapper d-flex flex-column flex-row-fluid">
+                <!-- S:: header -->
+                <div class="header">
+                    <div class="container-fluid d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <span class="btn-aside-close me-4 "><img src="assets/images/ic_menu_toggle_off.svg"></span>
+                            <h1 class="logo cursor-pointer"><img src="assets/images/kt_logo_w.svg"></h1>
+
+                        </div>
+                        <div>
+                            <div class="noti btn btn-icon w-40px h-40px position-relative">
+                                <img src="assets/images/ic_noti.svg">
+                                <span
+                                    class="bullet bullet-dot bg-danger h-6px w-6px position-absolute translate-middle top-0 start-50 animation-blink"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- E:: header -->
+                <!-- S:: content -->
+                <div class="content d-flex flex-column flex-column-fluid">
+                    <div class="content-container animated fadeInRight">
+                        <div class="statistics d-flex justify-content-center content-area">
+                            <div class="d-flex">
+                                <div class="left-area">
+                                    <h2 class="fs-22 mb-9 px-6">경보 통계</h2>
+                                    <div class="border-bottom search-area pb-8 px-6">
+                                        <table class="w-100">
+                                            <colgroup>
+                                                <col width="100px">
+                                                <col>
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <th>
+                                                        <label for="" class="col-form-label fs-18">구분</label>
+                                                    </th>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <select class="w-200px form-select">
+                                                                <option>선택</option>
+                                                                <option>경보 건수</option>
+                                                                <option>경보 처리 시간(분)</option>
+                                                            </select>
+                                                            <select class="w-200px form-select " disabled>
+                                                                <option>선택</option>
+                                                                <option>기간별</option>
+                                                                <option>모델별</option>
+                                                                <option>이벤트 타입별</option>
+                                                                <option>요일별 평균</option>
+                                                                <option>시간대별 평균</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        <label for="" class="col-form-label fs-18">구역</label>
+                                                    </th>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <select class="w-200px form-select">
+                                                                <option>사업장 선택</option>
+                                                            </select>
+                                                            <select class="w-200px form-select ">
+                                                                <option>작업장 선택</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        <label for="" class="col-form-label fs-18">기간</label>
+                                                    </th>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="me-6">
+                                                                <button type="button"
+                                                                    class="btn btn-outline-primary btn-sm w-70px fs-16 py-2 px-0 me-2">1일</button>
+                                                                <button type="button"
+                                                                    class="btn btn-outline-primary btn-sm w-70px fs-16 py-2 px-0 me-2 active">1주일</button>
+                                                                <button type="button"
+                                                                    class="btn btn-outline-primary btn-sm w-70px fs-16 py-2 px-0 me-2">1개월</button>
+                                                                <button type="button"
+                                                                    class="btn btn-outline-primary btn-sm w-70px fs-16 py-2 px-0 me-2">1년</button>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="date datepicker w-150px">
+                                                                    <input type="text" class="form-control"
+                                                                        value="2022-01-01">
+                                                                    <span class="input-group-addon">
+                                                                    </span>
+                                                                </div>
+                                                                <span class="dash mx-3"></span>
+                                                                <div class="date datepicker w-150px">
+                                                                    <input type="text" class="form-control"
+                                                                        value="2022-01-07">
+                                                                    <span class="input-group-addon">
+                                                                    </span>
+                                                                </div>
+                                                                <select class="w-120px form-select ms-4">
+                                                                    <option>연도 선택</option>
+                                                                    <option>2022년</option>
+                                                                    <option>2021년</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button type="button" class="btn btn-primary btn-search">검색</button>
+                                    </div>
+                                    <div class="data-area mt-5">
+                                        <div class="d-flex justify-content-end align-items-center px-7 pt-13">
+                                            <span class="badge critical me-3">critical</span>
+                                            <span class="badge major me-3">MAJOR</span>
+                                            <span class="badge minor">minor</span>
+                                        </div>
+                                        <div class="py-13">
+                                            <canvas id="myChart" width="1117" height="450"></canvas>
+                                            <script>
+
+                                                var ctx = document.getElementById("myChart").getContext("2d");
+                                                var data = {
+                                                    labels: ["2021-01-11", "2021-01-12", "2021-01-13", "2021-01-14", "2021-01-15", "2021-01-16", "2021-01-17"],
+                                                    datasets: [
+                                                        {
+                                                            label: "critical",
+                                                            backgroundColor: "#F1416C",
+                                                            data: [2, 1, 2, 2, 2, 0.7, 1, 3],
+                                                            borderRadius: 50,
+                                                            barPercentage: 0.6,
+                                                            categoryPercentage: 0.4,
+                                                            borderSkipped: false,
+                                                        },
+                                                        {
+                                                            label: "major",
+                                                            backgroundColor: "#FF934B",
+                                                            data: [3, 2, 0, 1, 3, 4, 0.5],
+                                                            borderRadius: 50,
+                                                            barPercentage: 0.6,
+                                                            categoryPercentage: 0.4,
+                                                            borderSkipped: false,
+                                                        },
+                                                        {
+                                                            label: "minor",
+                                                            backgroundColor: "#FFF173",
+                                                            data: [5, 4, 3, 2, 7, 9, 4],
+                                                            borderRadius: 50,
+                                                            barPercentage: 0.6,
+                                                            categoryPercentage: 0.4,
+                                                            borderSkipped: false,
+                                                        }
+                                                    ]
+                                                };
+
+                                                var myBarChart = new Chart(ctx, {
+                                                    type: 'bar',
+                                                    data: data,
+                                                    options: {
+                                                        responsive: false,
+                                                        plugins: {
+                                                            legend: {
+                                                                display: false
+                                                            },
+                                                        },
+                                                        scales: {
+                                                            x: {
+                                                                grid: {
+                                                                    display: false,
+                                                                }
+                                                            },
+                                                        }
+
+                                                    }
+                                                });
+
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- E:: content -->
+                <!-- S:: footer -->
+                <div class="footer">
+                    <h1 class="logo"><img src="assets/images/footer_logo_kt.svg"></h1>
+                    <div class="footer-menu d-flex">
+                        <a href="#">이용약관</a>
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">위치기반서비스 이용약관</a>
+                    </div>
+                    <p class="copyright mb-0 mt-2">Copyright © 2022 KT. All rights reserved.</p>
+                </div>
+                <!-- E:: footer -->
+            </div>
+            <!-- E:: wrapper -->
+        </div>
+        <!-- E:: page -->
+    </div>
+
+</body>
+
+</html>
