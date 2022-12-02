@@ -43558,7 +43558,8 @@ i.select:after{
   background-color: #FF884B;
 }
 
-.map-tooltip{
+.map-tooltip {
+  position: relative;
   /* border-radius: 12px;
   box-shadow: 0px 0px 40px #4C577D1A;
   background-color: #fff;
@@ -43801,20 +43802,4 @@ i.select:after{
 .modal-alert .modal-footer {
   border-top: 1px solid #C8D1E8;
   padding: 12px 22px;
-}
-
-/* kt-map info */
-.ollehmap-info-area{
-  border: none;
-  background: transparent;
-}
-.ollehmap-info-content{
-  min-width: 100px !important;
-  max-width: 200px !important;
-}
-.ollehmap-info-content-overflow{
-  padding: 0 !important;
-}
-.ollehmap-info-tip {
-  display: none !important;
 }
