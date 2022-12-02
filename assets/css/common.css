@@ -42939,6 +42939,7 @@ input:-webkit-autofill:active  {
   position: relative;
   height: 38px;
   min-width: 200px;
+  max-width: 200px;
   background: #98A0C0;
   font-size: 18px;
   align-items: center;
@@ -42949,6 +42950,7 @@ input:-webkit-autofill:active  {
   cursor: pointer;
   padding: 0 30px 0 10px;
 }
+
 .tab.active{
   background: #3868D8;
 }
@@ -43557,11 +43559,11 @@ i.select:after{
 }
 
 .map-tooltip{
-  border-radius: 12px;
+  /* border-radius: 12px;
   box-shadow: 0px 0px 40px #4C577D1A;
   background-color: #fff;
   padding: 12px;
-  width: 180px;
+  width: 180px; */
 }
 .map-tooltip:after{
   position: absolute;
@@ -43799,4 +43801,20 @@ i.select:after{
 .modal-alert .modal-footer {
   border-top: 1px solid #C8D1E8;
   padding: 12px 22px;
+}
+
+/* kt-map info */
+.ollehmap-info-area{
+  border: none;
+  background: transparent;
+}
+.ollehmap-info-content{
+  min-width: 100px !important;
+  max-width: 200px !important;
+}
+.ollehmap-info-content-overflow{
+  padding: 0 !important;
+}
+.ollehmap-info-tip {
+  display: none !important;
 }
